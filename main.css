@@ -19,3 +19,8 @@ img {
 li {
 	width: %
 }
+
+.mypanel {
+	margin: 5%;
+	font-family: Helvetica, sans-serif;
+}
