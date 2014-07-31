@@ -12,8 +12,8 @@
 
 }
 
-img {
-  width:100%;
+.container img {
+  width:50%;
   height:auto;
   padding: 5%;
 }
