@@ -34,7 +34,7 @@ img{
 .mainlinks {
 	width: 430px;
 	margin-left: -15px;
-	padding-top: 40px;
+	padding-top: 10%;
 }
 
 
@@ -62,7 +62,7 @@ img{
 }
 
 #selection-bar {
-	padding-top: 50px;
+	padding-top: 10%;
 	margin-bottom: 0px;
 
 }
@@ -75,7 +75,7 @@ img{
 }
 
 #lower-bar {
-	padding-top: 80px;
+	padding-top: 20%;
 }
 #lower-bar .btn{
 	color: white;
