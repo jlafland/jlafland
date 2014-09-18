@@ -1,13 +1,24 @@
+.darkBG {
+	background: #999;
+}
+
+.darkerBG {
+	background: #666;
+}
+
+.darkestBG {
+	background: #333;
+}
 
 }
 
-.container img {
+.img img{
   width:50%;
   height:auto;
   padding: 5%;
 }
 
-body {
+li {
 	width: %
 }
 

@@ -1,0 +1,124 @@
+address {
+	color: white;
+	text-align: center;
+	padding: 3em;
+}
+
+body {
+	background-color: #343232;
+}
+
+h1 {
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+h2 {
+	padding-top: 0px;
+	padding-bottom: 15px;
+	font-size: 22px;
+}
+h3 {
+	color: white;
+	text-align: center;
+}
+
+p{
+	color: white;
+}
+
+img{
+	max-width: 107.5px;
+}
+
+.mainlinks {
+	width: 430px;
+	margin-left: -15px;
+	padding-top: 40px;
+}
+
+
+
+
+.bio {
+	background-color: #343232;
+	border-color: #343232;
+}
+.container {
+
+	background-color: none;
+	width: 460px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: none;
+
+}
+
+#content {
+
+	background-color: red;
+	width: 460px;
+	
+}
+
+#selection-bar {
+	padding-top: 50px;
+	margin-bottom: 0px;
+
+}
+
+#selection-bar .btn{
+	color: white;
+	background-color: #343232;
+	border-color: #343232;
+	font-size: 20px;
+}
+
+#lower-bar {
+	padding-top: 80px;
+}
+#lower-bar .btn{
+	color: white;
+	background-color: black;
+	border-color: black;
+}
+
+#lower-bar .btn:hover{
+	background-color: #343232;
+	border-color: #343232;
+}
+
+
+
+.subheader {
+	color: white;
+}
+
+#header {
+
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: "copperplate_becker_med";
+
+}
+
+#contact{
+	width: 240px;
+	float: left;
+	text-align: center;
+
+}
+
+#info{
+	background-color: #343232;
+	color: black;
+	border-color: #343232;
+}
+
+#about{
+	width: 240px;
+	float: left;
+	text-align: center;
+}
+
