@@ -12,6 +12,7 @@ body {
 h1 {
 	padding: 10px;
 	padding-bottom: 0px;
+	color: white;
 }
 
 h2 {
@@ -84,6 +85,7 @@ img{
 	color: white;
 	background-color: black;
 	border-color: black;
+
 }
 
 #lower-bar .btn:hover{
