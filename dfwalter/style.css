@@ -6,6 +6,7 @@ address {
 
 body {
 	background-color: #343232;
+	padding-bottom: 50px;
 }
 
 h1 {
@@ -73,6 +74,8 @@ img{
 	border-color: #343232;
 	font-size: 20px;
 }
+
+
 
 #lower-bar {
 	padding-top: 20%;
