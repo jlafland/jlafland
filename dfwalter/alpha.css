@@ -23,6 +23,12 @@ body {
 button.silver{
 }
 
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+width: 100%; 
+
+}
+
 .container {
   width: 90%;
   margin-right: auto;
@@ -114,7 +120,7 @@ img.primary {
 }
 
 img.silver {
-  margin-top: ;
+  margin-top: 10%;
   width: 100%;
   max-width: 760px;
   margin-bottom: 9%;
@@ -143,6 +149,11 @@ img.silver {
 p {
   color: white;
 }
+
+address p .contact{
+  font-size: 12px;
+}
+
 .selection-bar .btn{
   color: white;
   background-color: #343232;
@@ -198,5 +209,11 @@ p {
         padding-bottom: 10.000em;
         margin-top: 150px;
         max-height: 1000px;
+
+
 }
+#bottom {
+  display: none;
+}
+
 }
