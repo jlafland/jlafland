@@ -23,6 +23,12 @@ body {
 button.silver{
 }
 
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+width: 100%; 
+
+}
+
 .container {
   width: 90%;
   margin-right: auto;
@@ -143,6 +149,11 @@ img.silver {
 p {
   color: white;
 }
+
+address p .contact{
+  font-size: 12px;
+}
+
 .selection-bar .btn{
   color: white;
   background-color: #343232;
@@ -200,5 +211,3 @@ p {
         max-height: 1000px;
 }
 }
-
-
