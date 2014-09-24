@@ -1,0 +1,15 @@
+
+body{
+	background-color: #CCFFFF;
+}
+.container-fluid{
+	width: 1400px;
+
+
+}
+
+.row {
+	min-height: 500px;
+}
+
+
