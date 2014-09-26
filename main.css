@@ -1,28 +1,15 @@
-.darkBG {
-	background: #999;
+
+address {
+	padding-top: 10%;
+	margin-right: 50%;
+	margin-left: 50%;
 }
 
-.darkerBG {
-	background: #666;
+
+img {
+	width: 100%;
+	max-width: 1100px;
+	
+	
 }
 
-.darkestBG {
-	background: #333;
-}
-
-}
-
-.img img{
-  width:50%;
-  height:auto;
-  padding: 5%;
-}
-
-li {
-	width: %
-}
-
-.mypanel {
-	margin: 5%;
-	font-family: Helvetica, sans-serif;
-}
