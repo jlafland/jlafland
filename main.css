@@ -29,3 +29,12 @@ img {
 .dropdown-menu{
 	padding-left: 30px;
 }
+
+#umbrella {
+	max-width: 50;
+}
+
+.fish{
+	padding-left: 50px;
+	max-width: 300px;
+}
