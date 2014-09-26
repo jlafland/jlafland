@@ -13,3 +13,19 @@ img {
 	
 }
 
+.example {
+	padding-left: 150px;
+	max-width: 50%;
+	padding-top: 10%
+
+}
+#inprogress{
+	padding-top: 10em;
+	padding-left: 10em;
+	width: 100%
+
+}
+
+.dropdown-menu{
+	padding-left: 30px;
+}
