@@ -1,6 +1,6 @@
 
 .logo{
-	max-width: 100%;
+	max-width: 60%;
 }
 
 .wrapper{
@@ -13,3 +13,27 @@
 	 height: 100%;
     background-repeat: no-repeat;
 }
+
+body{
+	background-image: url(images/background1.png);
+	display:center;
+	background-size: 100%;
+	
+	
+}
+
+.abouttext{
+	background-color: #F5FFFA ; 
+	opacity: 0.75;
+
+
+}
+
+h1 img{
+	opacity: 1;
+}
+
+.abouttext h2{
+	color: ;
+}
+
