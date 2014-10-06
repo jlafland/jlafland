@@ -24,10 +24,11 @@ body{
 
 .abouttext{
 	background-color: #F5FFFA ; 
-	opacity: 0.75;
+	opacity: 0.6;
 
 
 }
+
 
 h1 img{
 	opacity: 1;
@@ -36,4 +37,26 @@ h1 img{
 .abouttext h2{
 	color: ;
 }
+  
+
+
+
+.socialmedia{
+	padding-top: 1%;
+	padding-bottom: 3%;
+	
+}
+
+.icon{
+	background-color: transparent;
+	border: none;
+
+	
+}
+
+.mediaicon{
+	max-width: 60%;
+	min-width: 30px;
+}
+
 
