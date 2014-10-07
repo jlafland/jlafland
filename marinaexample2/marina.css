@@ -5,6 +5,8 @@
 
 .wrapper{
 	background-color: #F5FFFA;
+	opacity: 0.6;
+	min-height: 1000px;
 }
 
 .jumbotron{
@@ -15,6 +17,8 @@
 }
 
 body{
+
+  position: relative; 
 	background-image: url(images/background1.png);
 	display:center;
 	background-size: 100%;
@@ -55,7 +59,7 @@ h1 img{
 }
 
 .mediaicon{
-	max-width: 60%;
+	max-width: 40%;
 	min-width: 30px;
 	opacity: ;
 
@@ -65,3 +69,21 @@ h1 img{
 
 }
 
+.dragonlogo{
+	display: ;
+	padding: none;
+	max-height: 9%;
+}
+
+.modal-title {
+	padding-right: 40%;
+}
+.modal-header {
+	padding: 5px;
+
+}
+
+.pages{
+	
+	padding-top: 10%;
+}
