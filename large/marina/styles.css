@@ -1,0 +1,125 @@
+body{
+	background-color: white;
+}
+
+.earth{
+	position: absolute;
+	z-index: -20;
+}
+
+.logo{
+	position: absolute;
+	top: 10px;
+	max-width: 500px;
+	left: 300px;
+
+}
+
+.links{
+	position: relative;
+	width: 400px;
+	bottom: 1212px;
+	left:1050px;
+	
+}
+
+}
+
+.mediaicon{
+	max-width: 40%;
+	min-width: 10px;
+	opacity: ;
+
+}
+
+
+.logo{
+	max-width: 60%;
+}
+
+.wrapper{
+	background-color: #F5FFFA;
+	opacity: 0.6;
+	
+}
+
+.jumbotron{
+	background-image:  url(images/chairs.jpg);
+	 background-size: 100%;
+	 height: 100%;
+    background-repeat: no-repeat;
+}
+
+
+	
+
+.abouttext{
+	background-color: #F5FFFA ; 
+	opacity: 0.6;
+
+
+}
+
+
+h1 img{
+	opacity: 1;
+}
+
+.abouttext h2{
+	color: ;
+}
+  
+
+
+
+.socialmedia{
+	padding-top: 1%;
+	padding-bottom: 3%;
+	
+}
+
+.icon{
+	background-color: transparent;
+	border: none;
+
+	
+}
+
+.mediaicon{
+	max-width: 40%;
+	min-width: 30px;
+	opacity: ;
+
+}
+
+.imagebox{
+
+}
+
+.dragonlogo{
+	display: ;
+	padding: none;
+	max-height: 9%;
+}
+
+.modal-title {
+	padding-right: 40%;
+}
+.modal-header {
+	padding: 5px;
+
+}
+
+.pages{
+	position: relative;
+	bottom:970px;
+	padding-top: 10%;
+	left: 980px;
+	max-width: 300px;
+}
+
+.beverage {
+	position: relative;
+	
+
+}
