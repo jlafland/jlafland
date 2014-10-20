@@ -1,0 +1,34 @@
+
+
+body{
+	
+	position:absolute;
+    background-color:;
+    z-index:-99;
+    margin-left: ;
+    min-width: 1295px;
+
+}
+
+html{
+	
+	background-repeat: 0;
+	background-color: ;
+	max-width:500px;
+
+}
+
+.layer2{
+	background-image: url('');
+   
+
+}
+
+
+.background{
+	
+}
+
+.bgpic{
+	background-image: url('../images/newbluesky3.jpg');
+}
