@@ -7,13 +7,80 @@
     <title>The Marina</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="marina.css" rel="stylesheet">
+    <style>
+    body{
+    margin: 0px; background: url('') fixed ;
     
+    
+  }
+  #prlx_lyr_1{
+    position:fixed;
+    background: url('marinalayer2.png') no-repeat -100px 15px;
+    width: 3400px;
+    height: 900px ;
+    min-height: ;
+    margin-left: ;
+    max-height:;
+  }
+
+  #prlx_lyr_2{
+    position:fixed;
+    background: url('') no-repeat 100px 15px;
+    width: 100%;
+    height: 100%;
+  
+  }
+  #content_layer{
+    position: absolute;
+    width: 2400px;
+    height:;
+    min-height: 700px;
+    max-height: 700px;
+
+  }
+
+  .container{
+    position: absolute ;
+    width:100%;
+    height: 700px;
+  }
+  
+
+  </style>
+
+    
+
+  <script type="text/javascript">
+
+  function parallax(){
+    var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+    var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+    var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
+    var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
+  
+    prlx_lyr_1.style.left = -(window.pageXOffset/1.5)+'px';
+    prlx_lyr_2.style.left = -(window.pageXOffset/.5)+'px';
+    prlx_lyr_3.style.left = -(window.pageXOffset/1.5)+'px';
+    prlx_lyr_4.style.left = -(window.pageXOffset/2.5)+'px';
+    
+  }
+  window.addEventListener("scroll", parallax, false);
+
+  </script>
 
   </head>
 
      <body>
+     <div class="container">
+  <div id="content_layer"> 
+    <img src="newbluesky3.jpg">
+  </div>
+  <div id="prlx_lyr_1">
+
+   </div>
+
   
-  <div class="container">
+  <div id="prlx_lyr_3"class="container">
   <a href="marina.html">
   <img  class="center-block logo" src="images/marinalogo.png">
   </a>
@@ -21,7 +88,7 @@
 
 
 
-<div class="container">
+<div id="prlx_lyr_4"class="container">
     <div class="btn-group btn-group-justified socialmedia">
       <div class="btn-group">
         <button type="button" class="btn btn-default icon">
@@ -81,8 +148,7 @@
 
 
 
-
-<div class="container">
+<div id="prlx_lyr_2" class="container">
     <div class="btn-group btn-group-justified pages">
 <!-- Large modal -->
  <div class="btn-group">

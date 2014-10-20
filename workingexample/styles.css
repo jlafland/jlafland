@@ -1,24 +1,40 @@
-
-.logo{
-	max-width: 40%;
+body{
+	background-color: white;
 }
+
+.earth{
+	position: absolute;
+	z-index: -20;
+}
+
+
+
+}
+
+.links{
+
+	
+}
+
+}
+
+.mediaicon{
+	max-width: 10%;
+	min-width: 10px;
+	opacity: ;
+
+}
+
+
 
 .wrapper{
 	background-color: #F5FFFA;
 	opacity: 0.6;
-	min-height: 1000px;
-}
-
-
-body{
-
-  position: relative; 
-	background-image: url();
-	display:center;
-	background-size: 100%;
-	
 	
 }
+
+
+	
 
 .abouttext{
 	background-color: #F5FFFA ; 
@@ -40,10 +56,9 @@ h1 img{
 
 
 .socialmedia{
-	width: 50%;
-	padding-top: 9%;
+	padding-top: 50%;
 	padding-bottom: 3%;
-	margin-left: 26%;
+	max-width: ;
 	
 }
 
@@ -55,7 +70,7 @@ h1 img{
 }
 
 .mediaicon{
-	max-width: 50%;
+	max-width: 80%;
 	min-width: 30px;
 	opacity: ;
 
@@ -80,8 +95,15 @@ h1 img{
 }
 
 .pages{
+	position: relative;
+	bottom:970px;
+	padding-top: 10%;
+	left: 980px;
+	max-width: 300px;
+}
+
+.beverage {
+	position: relative;
 	
-	padding-top: 41%;
-	width: 30%;
-	margin-left:60%;
+
 }

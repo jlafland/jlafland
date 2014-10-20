@@ -3,54 +3,138 @@
 <head>
 	<title></title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href ="styles.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
 
 
 	body{
 		margin: 0px; background: url('') fixed ;
 		
+		
 	}
 	#prlx_lyr_1{
 		position:fixed;
 		background: url('marinalayer2.png') no-repeat -100px 15px;
 		width: 3400px;
-		height: 800px;
+		height: 900px ;
+		min-height: ;
 		margin-left: ;
+		max-height:;
+	}
+
+	#prlx_lyr_2{
+		position:fixed;
+		background: url('marinalogo.png') no-repeat 100px 15px;
+		width: 100%;
+		height: 100%;
+	
 	}
 	#content_layer{
 		position: absolute;
 		width: 2400px;
-		height:100%;
-
+		height:;
+		min-height: 700px;
+		max-height: 700px;
 
 	}
 
+	.container{
+		position: absolute ;
+		width:100%;
+		height: 700px;
+	}
+	
+
 	</style>
+
 	<script type="text/javascript">
 
 	function parallax(){
 		var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+		var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
 	
 		prlx_lyr_1.style.left = -(window.pageXOffset/1.5)+'px';
+		prlx_lyr_2.style.left = -(window.pageXOffset/1.5)+'px';
 		
 	}
 	window.addEventListener("scroll", parallax, false);
 
 	</script>
+
 </head>
 <body>
-
-
+<div class="container">
 	<div id="content_layer"> 
 		<img src="newbluesky3.jpg">
+	</div>
+	<div id="prlx_lyr_1">
 
+	 </div>
+	<div  id="prlx_lyr_2" class="logo">>
 
-	
 
 	</div>
 
-<div id="prlx_lyr_1"></div>
+
+
+<div class=" links">
+    <div class="btn-group btn-group socialmedia">
+      <div class="btn-group">
+        <button type="button" class="btn btn-default icon">
+          <a href="http://facebook.com/vermontmarina" target="_blank" class=" ">
+            <img src="icons/facebook.png" class="mediaicon">
+          </a>
+        </button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default icon">
+          <a href="http://www.youtube.com/playlist?list=PLBCpVrxDKrFhNa9hoPJWZ9Ewl0pYBsyJC" target="_blank" class=" ">
+            <img src="icons/youtube.png" class="mediaicon">
+          </a>
+        </button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default icon">
+          <a href="http://twitter.com/vermontmarina" target="_blank" class=" ">
+            <img src="icons/twitter.png" class="mediaicon">
+          </a>
+        </button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default icon">
+          <a href="http://www.tripadvisor.com/Restaurant_Review-g57192-d2259865-Reviews-The_Marina-Brattleboro_Vermont.html" target="_blank" class=" ">
+            <img src="icons/tripadvisor.png" class="mediaicon">
+          </a>
+        </button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default icon">
+          <a href="http://www.yelp.com/biz/the-marina-brattleboro-2"target="_blank"  class=" ">
+            <img src="icons/yelp.png"  class="mediaicon">
+          </a>
+        </button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default icon">
+          <a href="westrivermarina@gmail.com" target="_blank"  class=" ">
+            <img src="icons/email.png" class="mediaicon">
+          </a>
+        </button>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default icon">
+          <a href="http://www.foodnetwork.com/restaurants/vt/brattleboro/the-marina-restaurant-restaurant.html" target="_blank" class=" ">
+            <img src="icons/foodnetwork.png" class="mediaicon">
+          </a>
+        </button>
+      </div>
+    </div>
+    </div>
+</div>
+
+
 	
 </body>
 </html>
