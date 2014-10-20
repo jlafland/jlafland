@@ -17,10 +17,56 @@
 	
 
 
+
+
+	<ul id=menu>
+<li><a href="#L384">Section 1</a>
+<li><a href="#details">Section 2</a>
+<li><a href="#FAQ">Section 3</a>
+</ul>
+
+	<button onclick="scrollWin()">Click me to scroll horizontally!</button><br><br>
+
+
+<script>
+function scrollWin()
+{
+window.scrollTo(500,0);
+}
+</script>
+
+
+
+<p>Click one of the buttons (multiple times) to scroll the document window.</p>
+<p>Look at each scrollbar to see the effect.</p>
+
+<button onclick="scrollWin(0,100)" style="position:fixed;">Scroll down</button><br><br>
+
+<button onclick="scrollWin(0,-100)" style="position:fixed;">Scroll up</button><br><br>
+
+<button onclick="scrollWin(100,0)" style="position:fixed;">Scroll right</button><br><br>
+
+<button onclick="scrollWin(-100,0)" style="position:fixed;">Scroll left</button><br><br>
+
+<div style="border:1px solid black;background-color:lightblue;height:7500px;width:5000px;">
+</div>
+
+<script>
+function scrollWin(x,y)
+{
+window.scrollBy(x,y);
+}
+</script>
+
+
+
+
+<div id="wrap">
 	<div id="container" class="container-fluid">
 		<ul id="scene" class="scene">
-		<li class="layer" data-depth="0.30"><img src="marinafinishedwater.jpg" position-relative=""> </li>
-			<li id="blackbg"class="layer" data-depth="0.20"><img src="marinalayer2.png" width="2400" > </li>
+		<li class="layer" data-depth="0.5"><img class="background" src="newbluesky3.jpg" position-relative=""> </li>
+			<li id="blackbg"class="layer" data-depth="0.10"><img class="layer2" src="marina.png" width="2400" > </li>
+			</div>
 			
 		
 
