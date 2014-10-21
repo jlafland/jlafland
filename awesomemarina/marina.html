@@ -15,12 +15,13 @@
   }
   #prlx_lyr_1{
     position:fixed;
-    background: url('marinalayer2.png') no-repeat -100px 15px;
+    background: url('marinalayerpurple.png') no-repeat -100px 15px;
     width: 3400px;
     height: 900px ;
     min-height: ;
     margin-left: ;
     max-height:;
+    z-index: -3;
   }
 
   #prlx_lyr_2{
@@ -36,6 +37,7 @@
     height:;
     min-height: 700px;
     max-height: 700px;
+    z-index: -99;
 
   }
 
@@ -58,12 +60,18 @@
     var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
     var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
     var prlx_lyr_5 = document.getElementById('prlx_lyr_5');
+    var prlx_lyr_6 = document.getElementById('prlx_lyr_6');
+    var prlx_lyr_7 = document.getElementById('prlx_lyr_7');
+    
   
     prlx_lyr_1.style.left = -(window.pageXOffset/1.5)+'px';
     prlx_lyr_2.style.left = -(window.pageXOffset/2.5)+'px';
     prlx_lyr_3.style.left = -(window.pageXOffset/1.5)+'px';
-    prlx_lyr_4.style.left = -(window.pageXOffset/.65)+'px';
+    prlx_lyr_4.style.left = -(window.pageXOffset/2)+'px';
     prlx_lyr_5.style.left = -(window.pageXOffset/.65)+'px';
+    prlx_lyr_6.style.left = (window.pageXOffset/4)+'px';
+    prlx_lyr_7.style.left = (window.pageXOffset/2)+'px';
+    
 
     
   }
@@ -76,7 +84,7 @@
      <body>
      <div class="container">
   <div id="content_layer"> 
-    <img src="newbluesky3.jpg">
+    <img src="newbluesky5.jpg">
   </div>
   <div id="prlx_lyr_1">
 
@@ -85,14 +93,53 @@
   
   <div id="prlx_lyr_3"class="container">
   <a href="marina.html">
-  <img  class="center-block logo" src="images/marinalogo.png">
+  <img  class="center-block logo" src="marinalogo.png">
   </a>
   </div>
 
+<div id="prlx_lyr_5"class="container">
+ <img class=" seafood"src="seafood.png">
+ </div>
 
 
-<div id="prlx_lyr_4"class="container">
-    <div class="btn-group btn-group-justified socialmedia">
+  <div id="prlx_lyr_6"class="container fish">
+ <img src="fish.png">
+ </div>
+
+<div id="prlx_lyr_7"class="container dragon">
+<img src="colordragon2.png">
+</div>
+
+
+<div id="prlx_lyr_2" class="container">
+    <div class="btn-group btn-group-justified pages">
+<!-- Large modal -->
+ <div class="btn-group">
+<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Calander</button>
+</div>
+ <div class="btn-group">
+
+
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#menu">
+  Menu
+</button>
+</div>
+
+ <div class="btn-group">
+
+
+<button class="btn btn-primary" data-toggle="modal" data-target=".bs-information-modal-lg">Information</button>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+  
+    <div id="prlx_lyr_4" class="btn-group btn-group-justified socialmedia">
       <div class="btn-group">
         <button type="button" class="btn btn-default icon">
           <a href="http://facebook.com/vermontmarina" target="_blank" class=" ">
@@ -143,35 +190,12 @@
         </button>
       </div>
     </div>
-    </div>
+
+  
 
 
 
 
-
-
-
-<div id="prlx_lyr_2" class="container">
-    <div class="btn-group btn-group-justified pages">
-<!-- Large modal -->
- <div class="btn-group">
-<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Calander</button>
-</div>
- <div class="btn-group">
-
-
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#menu">
-  Menu
-</button>
-</div>
-
- <div class="btn-group">
-
-
-<button class="btn btn-primary" data-toggle="modal" data-target=".bs-information-modal-lg">Information</button>
-</div>
-</div>
-</div>
 
 
 
@@ -313,11 +337,7 @@
   </div>
 </div>
 
-<div>
-<img id="prlx_lyr_5" class="dragon" src="colordragon.png">
-</div>
 
-</div>
 
 
 

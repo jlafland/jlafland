@@ -41,9 +41,9 @@ h1 img{
 
 .socialmedia{
 	width: 50%;
-	padding-top: 9%;
+	padding-top: 43%;
 	padding-bottom: 3%;
-	margin-left: 26%;
+	margin-left: 33%;
 	
 }
 
@@ -81,13 +81,26 @@ h1 img{
 	
 	padding-top: 47%;
 	width: 30%;
-	margin-left:70%;
+	margin-left:50%;
 }
 
+
+.fish{
+	padding-top: 10%;
+	padding-left: 58%;
+	
+}
+.seafood{
+
+	padding-left: 35%;
+	padding-top: 10%;
+}
 
 .dragon{
+	z-index: -5;
+	padding-left:80%;
+	padding-top:35%;
 }
-
 
 /*div {
   height: 3em;
