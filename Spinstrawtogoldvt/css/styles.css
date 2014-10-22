@@ -14,7 +14,7 @@ h4{
 }
 
 .work-shops{
-	position: absolute;
+	position: ;
 
 }
 .workshopsbttn{
@@ -104,4 +104,11 @@ height: 2em;
 }
 h6{
 	font-size:1.1em;
+}
+
+
+.body {
+margin:0px;
+border:solid 10px #ff6500;
+
 }
