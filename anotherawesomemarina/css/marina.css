@@ -200,6 +200,43 @@ only screen and (min-device-pixel-ratio : 1.5) {
   min-width: 300px;
 }
 
+.menubutton{
+  background-color:#FF56DE ;
+  border-color:#ED3BFF;
+  border-radius: 10px;
+ 
+}
+
+
+.menubutton:hover{
+
+  background-color:#ED3BFF;
+   color: #003C51;
+
+}
+.infobutton{
+  background-color: #51FF66;
+  border-color:#98F100;
+  color: #003C51;
+}
+
+.infobutton:hover{
+
+  background-color:#98F100;
+
+}
+.calanderbutton{
+  background-color: #FFFB5F;
+  border-color:#FFF79F;
+  color: #003C51;
+}
+
+.calanderbutton:hover{
+
+  background-color:#FFF79F;
+
+}
+
 
 .fish{
 	padding-top: 10%;
