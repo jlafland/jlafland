@@ -211,7 +211,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
  
 }
 
+.menu-modal-background{
+  background-color: #7FE7FF;
 
+}
 .menubutton:hover{
 
   background-color:#ED3BFF;
@@ -229,6 +232,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
   background-color:#98F100;
 
 }
+.info-modal-background{
+  background-color: #E69FFF;
+}
+
 .calanderbutton{
   background-color: #FFFB5F;
   border-color:#FFF79F;
@@ -240,8 +247,22 @@ only screen and (min-device-pixel-ratio : 1.5) {
   background-color:#FFF79F;
 
 }
+.google-calander{
+  height:100%;
+  width:100%;
+  min-height: 400px;
+}
+.calander-panel{
+  background-color: #FF76FB;
+}
 
+.calander-modal-background{
+  background-color: #FFFB5F;
+}
 
+.music-panel{
+  background-color: #97FF7A;
+}
 .fish{
 	padding-top: 10%;
 	padding-left: 58%;
@@ -264,6 +285,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	padding-left: ;
 }
 
+.community-links a{
+  font-size: 1.5em;
+}
 
 
 .popover1{
@@ -336,12 +360,15 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 .lantern-container{
   position: relative;
-  left:2400px;
+  left:2300px;
   max-width: 620px;
   top:360px;
   margin-left: 0px;
 }
 
+.lantern1{
+
+}
 .clouds{
 
 position: absolute;

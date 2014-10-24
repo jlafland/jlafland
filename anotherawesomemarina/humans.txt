@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Jordan Lafalnd> -- <Designer> -- <twitter>
 
 # THANKS
 
-    <name>
+    <Kate and Laurie>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
+    bootstrap, paralax.js
