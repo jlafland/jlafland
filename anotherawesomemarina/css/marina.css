@@ -120,7 +120,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
   #prlx_lyr_1{
     position:fixed;
-    background: url("../images/newtexturelayerbrown.png") no-repeat -100px 15px;
+    background: url("../images/marinalayerpurple1.png") no-repeat -100px 15px;
     width: 3400px;
     height: 800px ;
     overflow: ;
@@ -159,7 +159,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .socialmedia{
   position:relative;
 	width: 50%;
-	top: 600px;
+	top: 670px;
 	position-bottom: 3%;
 	margin-left: 1%;
   min-width:400px;
@@ -179,9 +179,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .dragonlogo{
-	display: ;
-	padding: none;
-	max-height: 9%;
+	position:relative;
+	right: ;
+	max-height: 50px;
 }
 
 .modal-title {
@@ -194,7 +194,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .pages{
-	padding-top: 47%;
+  position: relative;
+	top: 662px;
 	width: 30%;
 	margin-left:50%;
   min-width: 300px;
@@ -288,15 +289,52 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 .kayak-button{
-  background-color: #51FF66;
+  position:relative;
+  bottom: 70px;
+
 }
+.gallery-button{
+  position:relative;
+  bottom: 60px;
+  height:100px;
+  margin-left:10px;
+}
+
+.trip-advisor-button{
+  position:relative;
+  bottom: 90px;
+  height:150px;
+  margin-right:-39px;
+}
+
+.trip-modal-body{
+  background-color: #8DFF91;
+}
+
+.trail-button{
+  position:relative;
+  bottom: 60px;
+  height:150px;
+  margin-left:10px;
+}
+.trail-modal-body{
+  background-image: url('../images/trail-modal-background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #EEE;
+}
+.trail-modal-body a{
+  color: #16EEFF;
+}
+
+
 
 
 .lantern-container{
   position: relative;
   left:2400px;
   max-width: 620px;
-  top:550px;
+  top:360px;
   margin-left: 0px;
 }
 
