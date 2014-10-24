@@ -161,7 +161,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	width: 50%;
 	top: 670px;
 	position-bottom: 3%;
-	margin-left: 1%;
+	margin-left: ;
   min-width:400px;
 	
 }
@@ -182,6 +182,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	position:relative;
 	right: ;
 	max-height: 50px;
+  padding: none;
+  margin:none;
+
 }
 
 .modal-title {
@@ -291,6 +294,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .kayak-button{
   position:relative;
   bottom: 70px;
+  margin-left: 5px;
 
 }
 .gallery-button{
