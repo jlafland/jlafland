@@ -263,6 +263,27 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .music-panel{
   background-color: #97FF7A;
 }
+
+
+.trail-modal-background{
+  background-color: #CCFFDF;
+
+}
+
+.trail-panel-background{
+  background-color: #B6FFB6;
+
+}
+
+.kayak-modal-background{
+  background-color: #EED1FF;
+
+}
+
+
+
+
+
 .fish{
 	padding-top: 10%;
 	padding-left: 58%;
