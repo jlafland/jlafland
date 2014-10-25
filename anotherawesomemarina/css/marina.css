@@ -2,7 +2,7 @@
   body {
   margin: 0px; background: url('') fixed ;
   position: relative; 
-  background-image: url();
+  background-color: #86FF84;
   display:center;
   background-size: 100%;
   overflow: hidden;
@@ -215,11 +215,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 }
 
-.menu-tab:active{
-  background-color: #2DFF3B;
-  00E856
-}
-
 .menu-modal-background{
   background-color: #7FE7FF;
 
@@ -229,6 +224,14 @@ only screen and (min-device-pixel-ratio : 1.5) {
   background-color:#ED3BFF;
    color: #003C51;
 
+}
+
+.menu-close-button{
+  background-color: #F09AFF;
+}
+
+.menu-close-button:hover{
+  background-color: #B424FF;
 }
 .infobutton{
   background-color: #51FF66;
@@ -243,6 +246,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
 }
 .info-modal-background{
   background-color: #E69FFF;
+}
+
+li.active{
+  background-color: #FF76AF;
 }
 
 .calanderbutton{
@@ -288,6 +295,26 @@ only screen and (min-device-pixel-ratio : 1.5) {
   background-color: #EED1FF;
 
 }
+.gallery-modal{
+  background-color: #FFC884;
+}
+.live-music-background{
+
+}
+
+.music-info-style{
+  background-color: #F89AFF;
+}
+
+.music-info-style2{
+  background-color: #84F2FF;
+}
+
+.music-one-background{
+  background-color: #9AE7FF;
+}
+
+
 
 
 .fish{
