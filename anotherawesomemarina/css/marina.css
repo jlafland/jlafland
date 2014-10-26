@@ -52,8 +52,8 @@
  #prlx_lyr_1{
     position:fixed;
     background: url("../images/purple-layer-smallmobile.png") no-repeat -100px 15px;
-    width: 3400px;
-    height: 800px ;
+    width: 1396px;
+    height: 600px ;
     overflow: ;
     min-height: ;
     margin-left: ;
@@ -75,6 +75,18 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
+ #prlx_lyr_1{
+    position:fixed;
+    background: url("../images/purple-layer-mobile.png") no-repeat -100px 15px;
+    width: 1812px;
+    height: 800px ;
+    overflow: ;
+    min-height: ;
+    margin-left: ;
+    max-height:;
+    z-index: -3;
+  }
+}
 }
 
 /* iPads (landscape) ----------- */
