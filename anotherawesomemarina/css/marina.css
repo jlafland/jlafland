@@ -49,6 +49,17 @@
       margin-left:;
       min-width: 300px;
 }
+ #prlx_lyr_1{
+    position:fixed;
+    background: url("../images/marinalayerpurple1.png") no-repeat -100px 15px;
+    width: 3400px;
+    height: 800px ;
+    overflow: ;
+    min-height: ;
+    margin-left: ;
+    max-height:;
+    z-index: -3;
+  }
 }
 
 /* Smartphones (landscape) ----------- */
