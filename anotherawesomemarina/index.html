@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="height=device-height">
+    <meta name="viewport" content= "width=500, initial-scale=1">
     <title>The Marina</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
     <div class="container wrapper">  
 <!-- Background layer -->
       <div id="content_layer"> 
-        <img src="images/newblueskylayer6.jpg">
+        <img id="doScroll" src="images/newblueskylayer6.jpg">
       </div>
 <!-- Buliding layer -->
       <div id="prlx_lyr_1">
@@ -569,6 +569,25 @@
     </script>
 <!-- trip advisor map in modal -->
     <script src="http://www.jscache.com/wejs?wtype=impnearbyrestnarrow&amp;uniq=323&amp;locationId=2259865&amp;lang=en_US&amp;border=true&amp;ltype=v"></script>
+<!-- mouse scroll scroll left -->
+    <script>
+          var mouseWheelEvt = function (e)
+    {
+        var event = e || window.event;
+        if (document.body.doScroll)
+            document.body.doScroll(event.wheelDelta>0?"left":"right");
+        else if ((event.wheelDelta || event.detail) > 0)
+            document.body.scrollLeft -= 10;
+        else
+            document.body.scrollLeft += 10;
+
+        return false;
+    }
+    if ("onmousewheel" in document.body)
+        document.body.onmousewheel = mouseWheelEvt;
+    else
+        document.body.addEventListener("DOMMouseScroll", mouseWheelEvt);
+    </script>
 <!-- Preloader -->
     <script type="text/javascript">
   //<![CDATA[
