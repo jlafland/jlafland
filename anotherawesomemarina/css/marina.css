@@ -20,18 +20,32 @@
     z-index:99; /* makes sure it stays on top */
 }
 
-
-.you-tube-modal{
-  background-color: #FF6C5F;
+#status {
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("../images/dragonwheel.gif"); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    z-index: 99;
 }
-.you-tube-player{
-  width:100%;
-  min-height: 300px;
-}
-
 
 
 @media screen and (max-width: 480px) {
+    
+  @viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+
+/* Media Queries */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
     .seafood-logo{
       height:90%;
       width:90%;
@@ -48,83 +62,63 @@
       margin-left:;
       min-width: 300px;
 }
-
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
+@media only screen and (min-width : 321px) {
 /* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
+@media only screen and (max-width : 320px) {
 /* Styles */
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
 }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
 }
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 /* Styles */
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
+@media only screen and (min-width : 1224px) {
 /* Styles */
 }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
+@media only screen and (min-width : 1824px) {
 /* Styles */
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
 
 
-.wrapper{
-  height:800px;
-  width:2400px;
+/* main container */
+  .wrapper{
+    height:800px;
+    width:2400px;
 }
 
-#status {
-    width:230px;
-    height:230px;
-    position:absolute;
-    left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url("../images/dragonwheel.gif"); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
-    z-index: 99;
-}
+  .container{
+    position: absolute ;
+    width:100%;
+   
+  }
 
 
+/* Parallax layers */
   #prlx_lyr_1{
     position:fixed;
     background: url("../images/marinalayerpurple1.png") no-repeat -100px 15px;
@@ -153,15 +147,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
     z-index: -99;
   }
 
-  .container{
-    position: absolute ;
-    width:100%;
-   
-  }
-
-.logo{
-	max-width: 40%;
-}
 
 .socialmedia{
   position:relative;
@@ -185,6 +170,26 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 }
 
+
+
+/* logo */
+.fish{
+  padding-top: 10%;
+  padding-left: 58%;
+  
+}
+.seafood-logo{
+  position:;
+  padding-left: 35%;
+  padding-top: 10%;
+
+}
+
+.logo{
+  max-width: 40%;
+}
+
+
 .dragonlogo{
 	position:relative;
 	right: ;
@@ -194,6 +199,17 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 }
 
+
+/* moving dragon-color */
+.dragon{
+  position:absolute;
+  z-index: -5;
+  padding-left:80%;
+  top:500px;
+}
+
+
+/* Modals and Buttons */
 .modal-title {
 	padding-right: 40%;
 }
@@ -323,27 +339,11 @@ li.active{
 
 
 
-
-.fish{
-	padding-top: 10%;
-	padding-left: 58%;
-	
-}
-.seafood-logo{
-  position:;
-	padding-left: 35%;
-	padding-top: 10%;
-
-}
-
 .dragon{
   position:absolute;
 	z-index: -5;
 	padding-left:80%;
   top:500px;
-}
-.container{
-	padding-left: ;
 }
 
 .community-links a{
@@ -355,24 +355,17 @@ li.active{
   max-height:500px;
 }
 
-.popover1{
-   position: absolute;
-  bottom:300px;
-  left: 2500px;
-  }
+/* youtube modal w/ player */
 
-.tooltip1{
-  position: relative;
-  bottom:300px;
-  left: 2500px;
-  z-index: 50;
-
+.you-tube-modal{
+  background-color: #FF6C5F;
+}
+.you-tube-player{
+  width:100%;
+  min-height: 300px;
 }
 
-
-
-
-
+/* right picture buttons */
 .right-buttons{
   position:relative;
   top:620px;
@@ -393,6 +386,7 @@ li.active{
   margin-left:10px;
 }
 
+/* tripadvisor modal */
 .trip-advisor-button{
   position:relative;
   bottom: 90px;
@@ -404,6 +398,7 @@ li.active{
   background-color: #8DFF91;
 }
 
+/* West river trail */
 .trail-button{
   position:relative;
   bottom: 60px;
@@ -422,7 +417,7 @@ li.active{
 
 
 
-
+/* lanterns */
 .lantern-container{
   position: relative;
   left:2300px;
@@ -431,9 +426,8 @@ li.active{
   margin-left: 0px;
 }
 
-.lantern1{
 
-}
+/*  Moving Clouds */
 .clouds{
 
 position: absolute;
@@ -477,6 +471,7 @@ height: 300;
   z-index: -6;
   }
 
+  /* Cloud Animation */
   @-webkit-keyframes flight {
 
   0% {
@@ -520,13 +515,3 @@ height: 300;
   }
 }
 
-
-
-/*div {
-  height: 3em;
-  transition: 1s;
-}
-
-div:hover {
-  height: 24em;
-}
