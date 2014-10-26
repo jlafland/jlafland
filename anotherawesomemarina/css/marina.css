@@ -21,6 +21,13 @@
 }
 
 
+.you-tube-modal{
+  background-color: #FF6C5F;
+}
+.you-tube-player{
+  width:100%;
+  min-height: 300px;
+}
 
 
 
@@ -264,7 +271,7 @@ li.active{
 
 }
 .google-calander{
-  height:100%;
+  max-height:80%;
   width:100%;
   min-height: 400px;
 }
@@ -342,7 +349,11 @@ li.active{
 .community-links a{
   font-size: 1.5em;
 }
-
+.directions-map{
+  width: 100%;
+  min-height: 300px;
+  max-height:500px;
+}
 
 .popover1{
    position: absolute;
