@@ -60,11 +60,25 @@
     max-height:;
     z-index: -3;
   }
+
+  .lower-nav-mobile{
+    display: none;
+  }
+p.navbar-text.pull-left{
+  font-size: 1em;
+}
+
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 /* Styles */
+  .lower-nav-mobile{
+    display: none;
+  }
+  p.navbar-text.pull-left{
+  font-size: 1.1em;
+}
 }
 
 /* Smartphones (portrait) ----------- */
@@ -86,8 +100,15 @@
     max-height:;
     z-index: -3;
   }
+  .pages{
+  position: relative;
+  top: 562px;
+  width: 30%;
+  margin-left:50%;
+  min-width: 300px;
 }
 }
+
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
@@ -272,7 +293,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 .pages{
   position: relative;
-	top: 662px;
+	top: 80%;
 	width: 30%;
 	margin-left:50%;
   min-width: 300px;
@@ -326,27 +347,27 @@ li.active{
   background-color: #FF76AF;
 }
 
-.calanderbutton{
+.calenderbutton{
   background-color: #FFFB5F;
   border-color:#FFF79F;
   color: #003C51;
 }
 
-.calanderbutton:hover{
+.calenderbutton:hover{
 
   background-color:#FFF79F;
 
 }
-.google-calander{
+.google-calender{
   max-height:80%;
   width:100%;
   min-height: 400px;
 }
-.calander-panel{
+.calender-panel{
   background-color: #FF76FB;
 }
 
-.calander-modal-background{
+.calender-modal-background{
   background-color: #FFFB5F;
 }
 
