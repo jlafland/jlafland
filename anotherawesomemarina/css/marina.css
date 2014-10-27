@@ -64,10 +64,6 @@
   .lower-nav-mobile{
     display: none;
   }
-p.navbar-text.pull-left{
-  font-size: 1em;
-}
-
 }
 
 /* Smartphones (landscape) ----------- */
@@ -76,9 +72,7 @@ p.navbar-text.pull-left{
   .lower-nav-mobile{
     display: none;
   }
-  p.navbar-text.pull-left{
-  font-size: 1.1em;
-}
+
 }
 
 /* Smartphones (portrait) ----------- */
