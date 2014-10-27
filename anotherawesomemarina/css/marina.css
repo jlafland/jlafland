@@ -20,6 +20,7 @@
     z-index:99; /* makes sure it stays on top */
 }
 
+/*
 
 @media screen and (max-width: 480px) {
     
@@ -30,7 +31,7 @@
 
 
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- *
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     .seafood-logo{
@@ -75,14 +76,14 @@
 
 }
 
-/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait) ----------- *
 @media only screen and (max-width : 320px) {
 /* Styles */
 }
 
-/* iPads (portrait and landscape) ----------- */
+/* iPads (portrait and landscape) ----------- *
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
+/* Styles *
  #prlx_lyr_1{
     position:fixed;
     background: url("../images/purple-layer-mobile.png") no-repeat -100px 15px;
@@ -287,7 +288,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 .pages{
   position: relative;
-	top: 80%;
+	top: 663px;
 	width: 30%;
 	margin-left:50%;
   min-width: 300px;
