@@ -6,7 +6,12 @@
     <meta name="viewport" content="height=device-height">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>The Marina</title>
+    <title>The Marina - Brattleboro, VT Waterfront Dining</title>
+    <meta name='description' content='Come in to The Marina, a fresh seafood restaurant with an extensive menu of American food. Enjoy waterfront dining and outdoor seating with an amazing sunset view and a casual dining atmosphere in Brattleboro, Vermont.' />
+    <meta name='keywords' content='Seafood, Restaurants, Waterfront Dining, Outdoor Dining, Vegetarian, Live Music, Family Dining, Take Out, Lunch, Brunch, Burgers, Bar, Local, Beer, Brattleboro, Vermont' />
+    <meta property='og:site_name' content='Home' />
+    <meta property='og:title' content='The Marina - Brattleboro, VT Waterfront Dining' />
+    <meta property='og:description' content='Come in to The Marina, a fresh seafood restaurant with an extensive menu of American food. Enjoy waterfront dining and outdoor seating with an amazing sunset view and a casual dining atmosphere in Brattleboro, Vermont.' />
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/marina.css" rel="stylesheet">
@@ -73,7 +78,7 @@
       <div id="prlx_lyr_2" class="container">
         <div class="btn-group btn-group-justified pages">
           <div class="btn-group">
-            <button class="btn  calenderbutton" data-toggle="modal" data-target=".calender-modal">Calender</button>
+            <button class="btn  calenderbutton" data-toggle="modal" data-target=".calender-modal">Calendar</button>
           </div>
           <div class="btn-group">
             <button class="btn  btn-lg menubutton" data-toggle="modal" data-target="#menu">Menu</button>
@@ -148,7 +153,7 @@
           </div>
         </div>
       </div>
-<!-- Calender modal w google calender embed -->
+<!-- Calender modal w google calendar embed -->
       <div class="modal fade calender-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content calender-modal-background">
@@ -162,7 +167,7 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                        Calender
+                        Calendar
                     </a>
                   </h4>
                 </div>
@@ -324,9 +329,6 @@
                     We serve Lunch and Dinner seven days a week along with the always popular Sunday Brunch Buffet, accompanied by Live Jazz guitar with Draa Hobbs.
                       <br><br>
                     A beautiful view of the water is enjoyed from almost every seat in the restaurant.  Amazing sunsets can be appreciated from the fabulous first floor and mezzanine dining spots or from an outdoor, dockside seating area. The bar and lounge have been greatly expanded and are a fun destination every day of the week.
-                      <br><br>
-                    The Marina Restaurant in Brattleboro, Vermont, est. 1988,
-                    reopened in July 2011 after a July 2010 fire. 
                       <br><br>
                     The new restaurant design keeps everything that regulars know and love - the deck, the menu, and the staff - and added new features for better cooking and serving, comfort, and efficiency.
                       <br><br>
@@ -576,10 +578,6 @@ s
           <p class ="navbar-text pull-left"> 
 
             <a class="bottom-nav-buttons" data-toggle="modal" data-target=".example-modal-photos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Images</a>
-
-         
-
-
             <a class="bottom-nav-buttons" data-toggle="modal" data-target=".calender-modal">Events</a>&nbsp;
             <a class="bottom-nav-buttons" data-toggle="modal" data-target=".information-modal-lg">Directions</a>&nbsp;
             <a class="bottom-nav-buttons" data-toggle="modal" data-target=".calender-modal">Live-Music!</a>
@@ -592,7 +590,6 @@ s
     </div>
 <!-- Javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
 <!-- Modal script to move between tabs -->
     <script>  //menu modal
                   $(function () {
@@ -634,15 +631,27 @@ s
     else
         document.body.addEventListener("DOMMouseScroll", mouseWheelEvt);
     </script>
+<!-- google analytics  -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26075059-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 <!-- Preloader -->
     <script type="text/javascript">
-  //<![CDATA[
-      $(window).load(function() { // makes sure the whole site is loaded
-      $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-      $('body').delay(350).css({'overflow':'visible'});
-    })
-  //]]>
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+      //]]>
     </script>
   </body>
 </html>
