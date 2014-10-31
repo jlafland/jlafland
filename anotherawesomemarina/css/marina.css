@@ -450,10 +450,22 @@ height: 300;
 
 @media (max-width: 600px) {
   html { }
+  .background-image{
+    position:relative;
+    z-index: -100;
+    width: 2000px;
+
+
+  }
+  .wrapper{
+  
+}
   .lower-nav-mobile{
     display: none;
   }
   .pages{
+    
+    top:-500px;
     height:150px;
     right:150px;
   }
@@ -461,12 +473,50 @@ height: 300;
     height:90%;
     width:90%;
     position: relative;
+    
     left:-130px;
   }
   .socialmedia{
 
   }
+  #prlx_lyr_1{
+    
+    top:;
+
+    background: url("../images/purple-mobile.png") no-repeat -199px -100px;
+
+  }
+
+.right-buttons{
+  position:relative;
+  top:-500px;
+  padding-left:10px;
+  left:1000px;
 }
+
+.kayak-button{
+  position:relative;
+  bottom: 70px;
+  margin-left: 5px;
+
+}
+.gallery-button{
+  position:relative;
+  bottom: 60px;
+  height:100px;
+  margin-left:10px;
+}
+
+.trip-advisor-button{
+  position:relative;
+  bottom: 90px;
+  height:150px;
+  margin-right:-39px;
+}
+  }
+ 
+
+
 
 /*div {
   height: 3em;
