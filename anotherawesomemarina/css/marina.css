@@ -24,26 +24,6 @@ h3{
   font-family: 'Exo 2', sans-serif;
 }
 
-@media screen and (max-width: 480px) {
-   #prlx_lyr_1{
-    position:fixed;
-    background: url("../images/purple-mobile.png") no-repeat -100px 15px;
-  }
-  .lower-nav-mobile{
-    display: none;
-  }
-  .pages{
-  position: relative;
-  top: 562px;
-  width: 30%;
-  margin-left:50%;
-  min-width: 300px;
-}
-
-}
-
-
-
 .wrapper{
   height:800px;
   width:2400px;
@@ -468,7 +448,25 @@ height: 300;
   }
 }
 
+@media (max-width: 600px) {
+  html { }
+  .lower-nav-mobile{
+    display: none;
+  }
+  .pages{
+    height:150px;
+    right:150px;
+  }
+  .seafood-logo{
+    height:90%;
+    width:90%;
+    position: relative;
+    left:-130px;
+  }
+  .socialmedia{
 
+  }
+}
 
 /*div {
   height: 3em;
