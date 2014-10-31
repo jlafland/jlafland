@@ -12,6 +12,7 @@
     <meta property='og:site_name' content='Home' />
     <meta property='og:title' content='The Marina - Brattleboro, VT Waterfront Dining' />
     <meta property='og:description' content='Come in to The Marina, a fresh seafood restaurant with an extensive menu of American food. Enjoy waterfront dining and outdoor seating with an amazing sunset view and a casual dining atmosphere in Brattleboro, Vermont.' />
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/marina.css" rel="stylesheet">
@@ -70,9 +71,11 @@
       <div id="prlx_lyr_6"class="container fish">
         <img src="images/logo/fish.png">
       </div>
+<!-- Scroll button-->
+      <div id="arrow-button"> <a class="arrowtext">&nbsp;Click &nbsp;Here</a></div>
 <!-- Dragon in water -->
       <div id="prlx_lyr_7"class="container dragon">
-        <img src="colordragon2.png">
+        <img src="images/colordragon2.png">
       </div>
 <!-- Buttons: for modal -Calender -Menu- Info -->
       <div id="prlx_lyr_2" class="container">
@@ -125,7 +128,7 @@
         </div>
         <div class="btn-group">
           <button type="button" class="btn btn-default icon">
-            <a href="westrivermarina@gmail.com" target="_blank"  class=" ">
+            <a href="mailto:westrivermarina@gmail.com"  class=" ">
               <img src="images/icons/email.png" class="mediaicon">
             </a>
           </button>
@@ -193,14 +196,17 @@
                         <div class="thumbnail">
                           <img src="images/Hobbs.jpg" alt="...">
                           <div class="caption tect-center music-info-style">
-                            <h3>EVERY SUNDAY BRUNCH</h3>
+                            <h3>EVERY <u>SUNDAY</u> BRUNCH</h3>
+                            <h4>
                               <p>The Marina presents guitarist Draa Hobbs performing a variety of standards and jazz classics.<br><br>
-                                Serving Brunch from 10AM-1PM, <br>
-                                music will start at 11AM<br>
+                                Serving Brunch:<br>
+                                10AM-1PM<br>
+                                music starts at 11AM<br><br>
                                 For more info, please visit: 
                               </p>
                               <p><a href="http://draahobbs.com/" class="btn btn-warning" role="button">draahobbs.com</a> 
                               </p>
+                            </h4>
                           </div>
                         </div>
                       </div>
@@ -208,9 +214,9 @@
                         <div class="thumbnail">
                           <img src="images/openmic.jpg" alt="...">
                           <div class="caption text-center music-one-background">
-                            <h3>OPEN MIC EVERY THURSDAY 7-10pm with KEVIN PARRY</h3>
+                            <h3>OPEN MIC EVERY <u>THURSDAY</u> 7-10pm with KEVIN PARRY</h3>
                             <h4>
-                            <p>Performers are encouraged to sign up in advance for a 20 minute:<br> call the Marina:<br> 802-257-7563.</p>
+                            <p>Performers are encouraged to sign up 20 minute in advance:<br> call the Marina:<br> 802-257-7563.</p>
                             <p><a href="http://www.kevinparrymusic.com/openmic.php" class="btn btn-info" role="button">Performers Click Here</a></p>
                             </h4>
                           </div>
@@ -235,20 +241,59 @@
             </div>
             <div class="modal-body">
               <ul class="nav nav-tabs" role="tablist" id="myTab">
-                <li class="active menu-tab"><a href="page1" role="tab" data-toggle="tab">Page 1</a></li>
+                <li class="active menu-tab"><a href="#page1" role="tab" data-toggle="tab">Page 1</a></li>
                 <li class="menu-tab"><a href="#page2" role="tab" data-toggle="tab">Page 2</a></li>
                 <li class="menu-tab"><a href="#page3" role="tab" data-toggle="tab">Page 3</a></li>
                 <li class="menu-tab"><a href="#page4" role="tab" data-toggle="tab">Page 4</a></li>
                 <li class="menu-tab"><a href="#page5" role="tab" data-toggle="tab">Page 5</a></li>
                 <li class="menu-tab"><a href="#page6" role="tab" data-toggle="tab">Page 6</a></li>
+                <li class="menu-tab"><a href="#page7" role="tab" data-toggle="tab">Wine List</a></li>
               </ul>
               <div class="tab-content" style="max-height:500px;overflow-y:auto;"> 
-                <div class="tab-pane active" id="page1"><img src="images/menu/menu.jpg" height="100%" width="100%"></div>
-                <div class="tab-pane" id="page2"><img src="images/menu/menu2.png" height="100%" width="100%"></div>
-                <div class="tab-pane" id="page3"><img src="images/menu/menu3.jpg" height="100%" width="100%"></div>
-                <div class="tab-pane" id="page4"><img src="images/menu/menu4.png" height="100%" width="100%"></div>
-                <div class="tab-pane" id="page5"><img src="images/menu/menu5.jpg" height="100%" width="100%"></div>
-                <div class="tab-pane" id="page6"><img src="images/menu/menu6.png" height="100%" width="100%"></div>
+                <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" class="center-block" height="100%" width="100%"></div>
+                <div class="tab-pane" id="page2"><img src="images/menu/page2.jpg" class="center-block" height="100%" width="100%"></div>
+                <div class="tab-pane" id="page3"><img src="images/menu/page3.jpg" class="center-block" height="100%" width="100%"></div>
+                <div class="tab-pane" id="page4"><img src="images/menu/page4.jpg" class="center-block" height="100%" width="100%"></div>
+                <div class="tab-pane" id="page5"><img src="images/menu/page5.jpg" class="center-block" height="100%" width="100%"></div>
+                <div class="tab-pane" id="page6"><img src="images/menu/page6.jpg" class="center-block" height="100%" width="100%"></div>
+                <div class="tab-pane" id="page7">
+                  <ul class="list-group text-center">
+                    <li class="list-group-item list-group-item-info "><em class="pull-left">
+                    Chandon split</em>(375ml)classic bubbly from California<em class="pull-right">16</em></li>
+                    <li class="list-group-item list-group-item-info"><em class="pull-left">
+                    Zonin proseco</em>Italy--tiny bubbles deliver tropical fruit and a sparkling finish   <em class="pull-right" >    28 </em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    Stella pinot grigio</em>Italy-- aroma of pear, fresh and easy going Stella pinot grigio <em class="pull-right" >   7, 25</em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    Chateau Ducasse Bordeaux</em>France-- dry, sassy and French - need we say more?   <em class="pull-right" > 11,  43 </em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    Sileni sauvignon blanc</em> New Zealand-- citrus and passion fruit, vibrant and crisp   <em class="pull-right" >8, 31</em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    Luduvicus</em>Spain--this white grenache is complex, bright and silky, organic<em class="pull-right">  8, 31</em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    Kung Fu riesling</em>Washington--floral with tones of peach and a hint of effervescence<em class="pull-right"> 8, 32 </em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    J. pinot gris</em>California--lovely bouquet of tropical fruit with a lush “mouth-feel” <em class="pull-right">  10, 38</em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    Naked 4 Vines chardonnay</em>California--a refreshing un-oaked chard – the house favorite<em class="pull-right">  8, 32 </em></li>
+                    <li class="list-group-item list-group-item-warning"><em class="pull-left">
+                    Wente “Morning Fog” chardonnay</em>California--this oaked chard delivers rich fruit and a great finish<em class="pull-right">   9, 35</em></li>
+                    <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                    642 Maremma rosso </em> Italy--Tuscan blend, organically farmed and vinified, simply delicious<em class="pull-right">  7,  29</em></li>
+                    <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                    Lincourt Estate pinot noir</em>California--perfectly balanced, world-class pinot, truly elegant<em class="pull-right"> 11,  39 </em></li>
+                    <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                    Vina Bujanda rioja</em>Spain--100% tempranillo, medium-bodied with spice and blackberry<em class="pull-right">   9,  35</em></li>
+                    <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                    Ruta 22 malbec</em>Argentina--fruity, smooth, and full-bodied<em class="pull-right">  8,  31</em></li>
+                    <li class="list-group-item list-group-item-danger"><em class="pull-left"> 
+                    Wente “Sandstone” merlot</em>California   velvet black cherry with a clear, dry finish<em class="pull-right">  10, 38 </em></li>
+                    <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                    Irony cabernet sauvignon</em>California--a classic cab with rich plum on the palate <em class="pull-right">  8,  31 </em></li>
+                    <li class="list-group-item list-group-item-danger"><em class="pull-left">
+                    Brazin old vine zinfandel</em> California--  big, bold, black fruit and pepper   <em class="pull-right"> 10,  40 </em></li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div class="modal-footer">
@@ -484,8 +529,18 @@
               <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
               <h4 class="modal-title" id="myModalLabel">The Marina's Gallery!</h4>
             </div>
-            <div class="modal-body">
-              Example work and previous artists
+            <div class="modal-body text-center">
+              <h3>Example work and previous artists</h3>
+               <img src="images/art2.jpg" class="art img-responsive center-block" width="50%" height="50%">
+              <h4>
+                <a href="http://www.picardart.com" target="blank"> Janet Picard </a><br>
+                <a href="http://www.deborahlazar.com" target="blank"> Deborah Lazar</a><br>
+                <a href="http://www.carynking.com" target="blank">Caryn King</a><br>
+                <a href="http://www.RockRiverArtists.com" target="blank"> Georgie Runkle</a><br>
+                <a href="http://www.henry-ireland.artistwebsites.com" target="blank">Henry Ireland</a>
+              </h4>
+              <img src="images/art1.jpg" class="art img-responsive pull-right" width="45%" height="45%">
+              <img src="images/art3.jpg" class="art img-responsive pull-left" width="45%" height="45%">
             </div>
             <div class="modal-footer">
             </div>
@@ -501,6 +556,9 @@
               <h4 class="modal-title" id="myModalLabel">Local Attractions</h4>
             </div>
             <div class="modal-body">
+            <a href="http://brattleborochamber.org/" target="blank">
+              <img src="images/logo/chamber-logo.png" class="img-responsive center-block"> 
+            </a>
               <div>
                 <div id="569356126767282928" align="center" style="width: 400; overflow-y: hidden;" class="">
                   <div id="TA_impnearbyrestnarrow323" class="TA_impnearbyrestnarrow">
@@ -576,9 +634,8 @@ s
       <div class ="fixedbar">
         <div class ="navbar-default navbar-fixed-bottom">
           <p class ="navbar-text pull-left"> 
-
             <a class="bottom-nav-buttons" data-toggle="modal" data-target=".example-modal-photos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Images</a>
-            <a class="bottom-nav-buttons" data-toggle="modal" data-target=".calender-modal">Events</a>&nbsp;
+            &nbsp;
             <a class="bottom-nav-buttons" data-toggle="modal" data-target=".information-modal-lg">Directions</a>&nbsp;
             <a class="bottom-nav-buttons" data-toggle="modal" data-target=".calender-modal">Live-Music!</a>
           </p> 
@@ -642,6 +699,26 @@ s
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+    </script>
+<!-- Scroll button -->
+    <script>
+        $( document ).ready(function() {
+      var bodyWidth = $( "body" ).width(), // whole width of the body
+          wWidth = $( window ).width(),// width of the viewport
+          arrowButton = $( "#arrow-button" ),
+          pos = 0;// start position
+
+      arrowButton.click(function() {
+        if ( pos <= bodyWidth-wWidth ) {
+          pos += wWidth;// after click add to start position width of the viewport
+        } else {
+          pos = 0; 
+        }
+
+        $('body').animate( { scrollLeft: pos }, 1500);
+      });
+
+    });//end ready
     </script>
 <!-- Preloader -->
     <script type="text/javascript">
