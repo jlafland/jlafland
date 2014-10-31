@@ -24,7 +24,7 @@ h3{
   font-family: 'Exo 2', sans-serif;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 480px) {
    #prlx_lyr_1{
     position:fixed;
     background: url("../images/purple-mobile.png") no-repeat -100px 15px;
