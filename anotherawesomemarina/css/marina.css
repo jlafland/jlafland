@@ -32,6 +32,13 @@ h3{
   .lower-nav-mobile{
     display: none;
   }
+  .pages{
+  position: relative;
+  top: 562px;
+  width: 30%;
+  margin-left:50%;
+  min-width: 300px;
+}
 
 }
 
