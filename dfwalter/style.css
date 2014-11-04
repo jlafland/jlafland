@@ -118,6 +118,18 @@ img.primary {
   max-width: 25%;
   display:block;
 }
+img.primary-services {
+  margin-top: ;
+  width: 50%;
+  display:block;
+}
+
+img.services {
+  margin-top: ;
+  width: 100%;
+  max-width: 760px;
+  margin-bottom: 9%;
+}
 
 img.silver {
   margin-top: ;
@@ -125,7 +137,6 @@ img.silver {
   max-width: 760px;
   margin-bottom: 9%;
 }
-
 
 
 .lower-bar { 
@@ -175,6 +186,44 @@ address p .contact{
   background-color: #343232;
 }
 
+.mainbuttons{
+ 
+}
+
+.mainbuttons .btn:hover {
+  display:;
+
+}
+.image-buttons{
+
+
+
+
+}
+
+
+
+.hover-button
+{
+    text-decoration: none;
+    color: transparent;
+}
+ 
+.hover-button:hover
+{
+    color: black;
+}
+
+.main-service-buttons{
+  position: relative;
+  bottom: -25px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 1324px) {
       .container {
@@ -218,6 +267,7 @@ address p .contact{
 }
 #bottom {
   display: none;
+
 }
 
 }

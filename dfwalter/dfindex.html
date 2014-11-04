@@ -11,10 +11,10 @@
 <!-- Fixed top Header -->
 			<div class ="dfheader navbar-fixed-top">
 				<h1 class="dfheader"> David Walter</h1>
-				<h2 class="dfheader">Contemporay Heirlooms</h2>
+				<h2 class="dfheader">Goldsmith & Platinumsmith</h2>
 			</div>
-<!-- Silver Modal -->
-			<div class="modal fade silver-modal-lg" id="silver" tabindex="-1" role="dialog" aria-labelledby="silver-modal" aria-hidden="true">
+<!-- About Modal -->
+			<div class="modal fade about-modal-lg" id="about" tabindex="-1" role="dialog" aria-labelledby="about-modal" aria-hidden="true">
 		  		<div class="modal-dialog modal-lg">
 		    		<div class="modal-content large-modal text-center">
 		    			<div class="container-fluid display-block text-center">
@@ -72,37 +72,15 @@
 				    </div>
 				</div>
 			</div>
-<!-- Main Button Words earring- ring -bracelet- necklace -->
-			<div class = "mainbuttons">
-				<div class="btn-group btn-group-justified selection-bar">
-			        <div class="btn-group">
-			          	<a href="example.html">
-			            	<button type="button" class="btn btn-default">Earring</button>
-			          	</a>
-			        </div>
-			        <div class="btn-group">
-			         	 <a href="pages/bracelet.html">
-			            	<button type="button" class="btn btn-default">Bracelet</button>
-			         	 </a>
-			        </div>
-			       	<div class="btn-group">
-			         	<a href="pages/ring.html">
-			            	<button type="button" class="btn btn-default">Ring</button>
-			         	</a>
-			        </div>
-			        <div class="btn-group">
-			          	<a href="pages/necklace.html">
-			            	<button type="button" class="btn btn-default">Necklace</button>
-			          	</a>
-			        </div>
-			    </div>
-	     	</div>
+			<div class="subheader">
+				<h3 class="text-center"> Contemporay Heirlooms</h3>
+			</div>
 <!-- Main Buttons: earring- ring -bracelet- necklace  -->
 			<div class="mainlinks" class="">
 			    <div class="">
-			       	<a href="pages/earring-page.html" >
+			       	<a href="pages/earring-page.html">
 			          <img class ="primary pull-left" src="images/mainpage1.jpg" alt="...">
-			        </a>
+			         </a>
 			    </div>
 			    <div class="">
 			        <a href="pages/bracelet-page.html">
@@ -120,26 +98,49 @@
 			        </a>
 			    </div>
 			</div>
-<!-- Silver Button -->
+<!-- Main Button Words earring- ring -bracelet- necklace -->
+			<div class = "mainbuttons">
+				<div class="btn-group btn-group-justified selection-bar">
+			        <div class="btn-group">
+			          	<a href="pages/earring-page.html" class="hover-button">
+			            	<button type="button" class="btn btn-default">Earring</button>
+			          	</a>
+			        </div>
+			        <div class="btn-group">
+			         	 <a href="pages/bracelet-page.html">
+			            	<button type="button" class="btn btn-default">Bracelet</button>
+			         	 </a>
+			        </div>
+			       	<div class="btn-group">
+			         	<a href="pages/ring-page.html">
+			            	<button type="button" class="btn btn-default">Ring</button>
+			         	</a>
+			        </div>
+			        <div class="btn-group">
+			          	<a href="pages/necklace-page.html">
+			            	<button type="button" class="btn btn-default">Necklace</button>
+			          	</a>
+			        </div>
+			    </div>
+	     	</div>
+<!-- Services Button -->
 			<div class="btn-group btn-group-justified selection-bar">
 		        <div class="btn-group">
-		          <a data-toggle="modal" data-target="#silver">
+		          <a href="pages/about-services.html">
 		            <button type="button" class="btn btn-default">Services</button>
 		          </a>
 		        </div>
 	        </div>
 			<div class="container">
-				<a data-toggle="modal" data-target="#silver">
-		     		<img class ="silver" src ="images/petalum.gif">
+				<a href="pages/about-services.html">
+		     		<img class ="services" src ="images/petalum.gif">
 		      	</a>
 		    </div>
 <!-- Buttons- About Bio Contact -->
 			<div class="row">
 		  		<div class="btn-group btn-group-justified lower-bar">
 				    <div class="btn-group">
-				    	<a href="pages/about-services.html">
-				       		<button type="button" class="col-md-4 btn btn-default">About</button>
-				        </a>
+				    	<button type="button" class="col-md-4 btn btn-default" data-toggle="modal" data-target=".about-modal-lg">About</button>	
 				    </div>
 				    <div class="btn-group">
 				        <button type="button" class="col-md-4 btn btn-default" data-toggle="modal" data-target=".bio-modal-lg">Bio</button>
@@ -164,5 +165,6 @@
 <!-- Opening of Container -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>
+	
 	</body>
 </html>
