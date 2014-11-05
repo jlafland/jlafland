@@ -1,0 +1,57 @@
+body{
+	/*background-image: url("andrew-0336.jpg");
+	background-position: relative;
+	top:111px;
+	background-size:402px 563px; 
+	background-repeat: no-repeat;*/
+	background-color: black;
+	margin:0;
+	padding:0;
+	display: block;
+	height: 1000px;
+}
+
+.main{
+	position: relative;
+	top:-565px;
+	margin: -2px;
+	z-index: 10;
+}
+
+.back-img{
+	position: relative;
+	top:100px;
+	z-index: -5;
+}
+
+.title-backg{
+	position: relative;
+	z-index: -2;
+	height: 111px;
+	width: 762px;
+	background-color: red;
+	top:-1111px;
+	left: -10px;
+
+}
+
+.cover{
+	position: relative;
+	z-index: 11;
+	height: 511px;
+	width: 762px;
+	background-color: black;
+	top:-726px;
+}
+
+
+.white-under{
+	position: relative;
+	z-index: ;
+	height: 100px;
+	width: 300px;
+	background-color:#dfdfdf;
+	top:-1519px;
+	left:401px;
+
+}
