@@ -1,53 +1,63 @@
 body, html {
-  padding:0px;
-  margin:0px;
-  height: 100%;
-  min-height: 100%;
+  
 
 }
+.containter{
+	max-height: 100vh;
 
+}
 .wrapper-row{
-	position: absolute;
-	top:150px;
-	width:100%;
-	height: 100vh;
-
 }
 
 .header-row{
+te;
 
 }
 
+.dfheader {
+
+}
+
+
 .subheader-row{
+
 	
-	
+}
+img.primary {
+
 }
 
 .main4buttons-row{
-	
+
+
 	
 }
 
 .services-row{
-	
-	
-
 
 }
+	
+	
+
+
+
 .lower-row{
+
+
 	
 
 }
 
-.subheader-row{
+.subtext-row{
 
 
 }
 
  
 div#projects {
-	position: relative;
-    height: 100vh;
-    background: ;
+	
+    max-height: 100vh;
+    min-height: 100vh;
+  
     
 }
