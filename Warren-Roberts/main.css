@@ -776,7 +776,7 @@ body{
 }
 
 .gallery .item {
-  height: 400px;
+  height: 100%;
   overflow: hidden;
   text-align: center;
   background: #4d87e2;
