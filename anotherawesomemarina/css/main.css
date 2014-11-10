@@ -79,10 +79,89 @@ div.main-buttons {
 	position: relative;
 	top: 44em;
 	/* max-width: 8em; */
-	padding-left: 35em;
+	/*padding-left: 35em; */
+	width: 30%;
+	margin-left:50%;
+  min-width: 300px;
 }
 /* main buttons  */
 
+
+.menu-button{
+  background-color:#FF56DE ;
+  border-color:#ED3BFF;
+  border-radius: 10px;
+ 
+}
+.menu-tab{
+  background-color:#71FF77 ;
+
+}
+
+.menu-modal-background{
+  background-color: #7FE7FF;
+
+}
+.menu-button:hover{
+
+  background-color:#ED3BFF;
+   color: #003C51;
+
+}
+
+.menu-close-button{
+  background-color: #F09AFF;
+}
+
+.menu-close-button:hover{
+  background-color: #B424FF;
+}
+.info-button{
+  background-color: #51FF66;
+  border-color:#98F100;
+  color: #003C51;
+}
+
+.info-button:hover{
+
+  background-color:#98F100;
+
+}
+.info-modal-background{
+  background-color: #E69FFF;
+}
+
+li.active{
+  background-color: #FF76AF;
+}
+
+.calender-button{
+  background-color: #FFFB5F;
+  border-color:#FFF79F;
+  color: #003C51;
+}
+
+.calender-button:hover{
+
+  background-color:#FFF79F;
+
+}
+.google-calender{
+  max-height:80%;
+  width:100%;
+  min-height: 400px;
+}
+.calender-panel{
+  background-color: #FF76FB;
+}
+
+.calender-modal-background{
+  background-color: #FFFB5F;
+}
+
+.music-panel{
+  background-color: #97FF7A;
+}
 
 
 
