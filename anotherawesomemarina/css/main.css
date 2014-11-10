@@ -59,6 +59,7 @@ div.marina-layer{
 	height: 70em;
 	width: 231em;
 	overflow-x: hidden;
+	z-index: -2;
 }
 
 div.dragon{
@@ -70,6 +71,7 @@ div.dragon{
 	margin-left: 50em;
 	height: 8em;
 	width: 25em;
+	z-index: -3;
 
 }
 
@@ -171,6 +173,7 @@ div.right-buttons {
 	top: 41em;
 	margin-left: 96em;
 	display: inline-flex;
+	width: 600px;
 }
 
 .button-icon:hover{
@@ -233,6 +236,7 @@ div.button-trail{
 	position: absolute;
 	padding-left: 1em;
 	top: 46.5em;
+	width: 700px;
 
 }
 /* social media button */
