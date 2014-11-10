@@ -31,23 +31,35 @@ div.logo{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
-	margin-left:1em; 
+	margin-left: 11em;
 	height: 9em;
-	width: 39em;
+	width: 37em;
 	z-index: 5;
 }
 
 div.sub-logo{
-	background-image: url('../images/logo/sublogo.png');
+	background-image: url('../images/logo/seafood.png');
 	background-size: 100%;
 	position: absolute;
 	top: 10em;
-	margin-left: 3em;
+	margin-left: 15em;
 	background-repeat: no-repeat;
-	height: 6em;
-	width: 37em;
+	height: 10em;
+	width: 25em;
 	z-index: 4;
 }
+
+div.sub-logo-fish{
+	background-image: url('../images/logo/fish.png');
+	background-size: 100%;
+	position: absolute;
+	top: 10em;
+	margin-left: 41em;
+	background-repeat: no-repeat;
+	height: 8em;
+	width: 12em;
+	z-index: 4;
+	}
 
 div.marina-layer{
 	background-image: url('../images/marinalayerpurple1.png');
