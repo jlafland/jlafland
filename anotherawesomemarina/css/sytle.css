@@ -1,0 +1,77 @@
+
+.social-icons:hover{
+	border: 2px solid transparent;
+
+}
+
+.social-icons{
+	display: inline-block;
+	margin: 1em;
+}
+
+
+.social-media {
+	position: absolute;
+	padding-left: 1em;
+	top: 46.5em;
+
+}
+/* social media button */
+div.facebook-button{
+	background-image: url('../images/icons/facebook.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width:  3.5em;
+
+}
+div.youtube-button{
+	background-image: url('../images/icons/youtube.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width:  3.5em;
+
+}
+div.twitter-button{
+	background-image: url('../images/icons/twitter.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width: 3.5em;
+
+}
+div.tripadvisor-button{
+	background-image: url('../images/icons/tripadvisor.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width:  3.5em;
+
+}
+
+div.yelp-button{
+	background-image: url('../images/icons/yelp.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 3.5em;
+	width: 3.5em;
+
+}
+
+div.email-button{
+	background-image: url('../images/icons/email.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 3.5em;
+	width: 3.5em;
+
+}
+div.foodnetwork-button{
+	background-image: url('../images/icons/foodnetwork.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 3.5em;
+	width: 3.5em;
+
+}
