@@ -1,0 +1,211 @@
+html{
+	height:100%;
+}
+
+body{
+	position: absolute;
+    background-image: url('../images/newblueskylayer6.jpg');
+    background-size: ;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+}
+
+div.wrapper{
+	height:100%;
+	max-height: 100vh;
+	width:100%;
+}
+
+
+div.logo{
+	background-image: url('../images/logo/marinalogo.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-left:1em; 
+	height: 9em;
+	width: 39em;
+	z-index: 5;
+}
+
+div.sub-logo{
+	background-image: url('../images/logo/sublogo.png');
+	background-size: 100%;
+	position: absolute;
+	top: 10em;
+	margin-left: 3em;
+	background-repeat: no-repeat;
+	height: 6em;
+	width: 37em;
+	z-index: 4;
+}
+
+div.marina-layer{
+	background-image: url('../images/marinalayerpurple1.png');
+	background-size: 119%;
+	position: absolute;
+	background-repeat: no-repeat;
+	top: -13em;
+	margin-left: -10em;
+	height: 70em;
+	width: 231em;
+	overflow-x: hidden;
+}
+
+div.dragon{
+	background-image: url('../images/colordragon2.png');
+	background-size: 100%;
+	position: absolute;
+	background-repeat: no-repeat;
+	top: 35em;
+	margin-left: 50em;
+	height: 8em;
+	width: 25em;
+
+}
+
+
+
+div.main-buttons{
+	position: absolute;
+	top: 44em;
+	padding-left: 37em;
+
+}
+
+/* main buttons  */
+
+
+
+
+
+div.right-buttons {
+	position: absolute;
+	top: 41em;
+	margin-left: 96em;
+	display: inline-flex;
+}
+
+.button-icon:hover{
+	border: 2px solid transparent;
+}
+
+
+.button-icon{
+	display: inline-block;
+	margin: 1em;
+}
+/*  right buttons  */
+div.button-brattleboro{
+	background-image: url('../images/trip-advisor-sign.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 123px;
+	width: 160px;
+
+}
+
+div.button-kayak{
+	background-image: url('../images/kayak-sign.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100px;
+}
+
+div.button-gallery{
+	background-image: url('../images/gallery-sign.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 121px;
+	width: 100px;
+}
+
+div.button-trail{
+	background-image: url('../images/trail-sign.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100px;
+
+}
+
+
+.social-icons:hover{
+	border: 2px solid transparent;
+
+}
+
+.social-icons{
+	display: inline-block;
+	margin: 1em;
+}
+
+
+.social-media {
+	position: absolute;
+	padding-left: 1em;
+	top: 46.5em;
+
+}
+/* social media button */
+div.facebook-button{
+	background-image: url('../images/icons/facebook.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width:  3.5em;
+
+}
+div.youtube-button{
+	background-image: url('../images/icons/youtube.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width:  3.5em;
+
+}
+div.twitter-button{
+	background-image: url('../images/icons/twitter.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width: 3.5em;
+
+}
+div.tripadvisor-button{
+	background-image: url('../images/icons/tripadvisor.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width:  3.5em;
+
+}
+
+div.yelp-button{
+	background-image: url('../images/icons/yelp.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 3.5em;
+	width: 3.5em;
+
+}
+
+div.email-button{
+	background-image: url('../images/icons/email.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 3.5em;
+	width: 3.5em;
+
+}
+div.foodnetwork-button{
+	background-image: url('../images/icons/foodnetwork.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 3.5em;
+	width: 3.5em;
+
+}

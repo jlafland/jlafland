@@ -362,6 +362,27 @@ li.active{
 .arrowtext{
   color: #7FFF00;
 }
+
+
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+top: auto;
+bottom: 100%;
+margin-bottom: -2px;
+}
+
+.dropdown-menu {
+position: absolute;
+top: 100%;
+left: 200px;
+
+}
+
+.toggle-button{
+  position: relative;
+  top: 8px;
+
+}
+
 .clouds{
 
 position: absolute;

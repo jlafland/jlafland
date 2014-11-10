@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vermont Marina</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+
+    function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+        var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+        var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
+        var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
+        var prlx_lyr_5 = document.getElementById('prlx_lyr_5');
+        var prlx_lyr_6 = document.getElementById('prlx_lyr_6');
+        
+        
+      
+        prlx_lyr_1.style.left = -(window.pageXOffset/1.5)+'px';
+        prlx_lyr_2.style.left = -(window.pageXOffset/4)+'px';
+        prlx_lyr_3.style.left = -(window.pageXOffset/1.5)+'px';
+        prlx_lyr_4.style.left = -(window.pageXOffset/2.5)+'px';
+        prlx_lyr_5.style.left = -(window.pageXOffset/2)+'px';
+        prlx_lyr_6.style.left = (window.pageXOffset/2)+'px';
+        
+        
+
+        }
+
+        window.addEventListener("scroll", parallax, false);
+    </script>
+  </head>
+  <body id="doScroll">
+    <div class= "wrapper">
+      
+
+          <div id="prlx_lyr_3" class="logo">
+          </div>
+
+          <div id="prlx_lyr_2"class="sub-logo">
+          </div>
+
+          <div id="prlx_lyr_1" class="marina-layer">
+          </div>
+
+          <div id="prlx_lyr_4" class="main-buttons">
+            <div class="btn-group">
+              <div class="calander-button btn">
+                <button>Calendar</button>
+              </div>
+              <div class="menu-button btn btn-lg">
+                <button>Menu</button>
+              </div>
+              <div class="info-button btn">
+                <button>Informaton</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="prlx_lyr_5" class="social-media">
+          
+            <div class="social-icons facebook-button">
+            </div>
+            <div class="social-icons youtube-button">
+            </div>
+            <div class="social-icons twitter-button">
+            </div>
+            <div class="social-icons tripadvisor-button">
+            </div>
+            <div class="social-icons yelp-button">
+            </div>
+            <div class="social-icons email-button">
+            </div>
+            <div class="social-icons foodnetwork-button">
+            </div>
+          </div>
+
+          <div class="right-buttons">
+            <div class="button-icon button-brattleboro">
+            </div>
+            <div class="button-icon button-kayak">
+            </div>
+            <div class="button-icon button-gallery">
+            </div>
+            <div class="button-icon button-trail">
+            </div>
+          </div>
+
+          <div id="prlx_lyr_6" class="dragon">
+          </div>
+
+          <div class ="fixedbar">
+        <div class ="navbar-default navbar-fixed-bottom">
+          <p class ="navbar-text pull-left dropup"> 
+            <a class="bottom-nav-buttons" data-toggle="modal" data-target=".example-modal-photos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Images</a>
+            &nbsp;
+            <a class="bottom-nav-buttons" data-toggle="modal" data-target=".information-modal-lg">Directions</a>&nbsp;
+            <a class="bottom-nav-buttons" data-toggle="modal" data-target=".calender-modal">Live-Music!</a>
+          </p> 
+          <p class ="navbar-text pull-right lower-nav-mobile">The Marina &nbsp;&nbsp;802-257-7563
+          </p>
+          <div class="dropup">
+            <button type="button" class=" toggle-button btn btn-default dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Local Events</a></li>
+              <li><a href="#">West-River Trail</a></li>
+              <li><a href="#">you-tube</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Menu</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
