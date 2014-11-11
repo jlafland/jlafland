@@ -469,6 +469,11 @@ height: 300;
   }
 }
 
+
+
+
+
+
 @media (max-width: 600px) {
   html { }
   .background-image{
@@ -520,6 +525,7 @@ height: 300;
     padding-left: 132%;
     top: 318px;
     }
+
 
 
 .lantern-container {

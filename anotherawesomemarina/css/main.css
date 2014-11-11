@@ -19,6 +19,32 @@ body{
     width: 100%;
 }
 
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("../images/dragonwheel.gif"); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    z-index: 99;
+}
+
+
 div.wrapper{
 	height:100%;
 	max-height: 100vh;
@@ -40,12 +66,12 @@ div.logo{
 div.sub-logo{
 	background-image: url('../images/logo/seafood.png');
 	background-size: 100%;
-	position: absolute;
-	top: 10em;
-	margin-left: 15em;
 	background-repeat: no-repeat;
 	height: 10em;
 	width: 25em;
+	position: absolute;
+	top: 10em;
+	margin-left: 15em;
 	z-index: 4;
 }
 
@@ -98,7 +124,17 @@ div.main-buttons {
 	margin-left:50%;
   min-width: 300px;
 }
-/* main buttons  */
+
+
+
+h3{
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+/* main button stles and modal sytles */
+
+
 
 
 .menu-button{
@@ -145,6 +181,14 @@ div.main-buttons {
   background-color: #E69FFF;
 }
 
+#info-accordion{
+	background-color: #FFE5D4;
+}
+
+.panel-info{
+	background-color: #D9FFDA;
+}
+
 li.active{
   background-color: #FF76AF;
 }
@@ -178,6 +222,57 @@ li.active{
 }
 
 
+.trail-modal-background{
+  background-color: #CCFFDF;
+
+}
+
+.trail-panel-background{
+  background-color: #B6FFB6;
+
+}
+
+.trip-modal-body{
+  background-color: #8DFF91;
+}
+
+.kayak-modal-background{
+  background-color: #EED1FF;
+
+}
+.gallery-modal{
+  background-color: #FFC884;
+}
+
+.music-info-style{
+  background-color: #F89AFF;
+}
+
+.music-info-style2{
+  background-color: #84F2FF;
+}
+
+.music-one-background{
+  background-color: #9AE7FF;
+}
+
+.community-links a{
+  font-size: 1.5em;
+}
+
+.directions-map{
+  width: 100%;
+  min-height: 300px;
+  max-height:500px;
+}
+
+.you-tube-modal{
+  background-color: #FF6C5F;
+}
+.you-tube-player{
+  width:100%;
+  min-height: 300px;
+}
 
 
 div.right-buttons {
@@ -197,6 +292,9 @@ div.right-buttons {
 	display: inline-block;
 	margin: 1em;
 }
+
+
+
 /*  right buttons  */
 div.button-brattleboro{
 	background-image: url('../images/trip-advisor-sign.png');
@@ -310,3 +408,245 @@ div.foodnetwork-button{
 	width: 3.5em;
 
 }
+
+
+
+
+#arrow-button {
+  background: black;
+  border-radius: 50%;
+  height: 40px;
+  position: fixed;
+  left: 50px;
+  top: 500px;
+  width: 40px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.arrowtext{
+  color: #7FFF00;
+}
+
+
+.dragonlogo{
+	position: relative;
+	height: 3.5em;
+	margin-top: -.5em;
+	margin-bottom: -1em;
+
+}
+
+/* nav bar pop up */
+div.dropup li a{
+	font-family: 'Open Sans';
+	color:black;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+div.dropup li a:hover{
+	background-color: #F22FFF;
+}
+
+.roll-link{
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.roll-link span {
+	display: block;
+	padding: 0 2px;
+
+	-webkit-transition:all 500ms ease;
+	-webkit-transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+
+	transition:all 500ms ease;
+	transform-origin: 50% 0;
+	transform-style: preserve-3d;
+
+}
+
+.roll-link:hover span {
+	background-color: #F22FFF;
+	-webkit-transform:rotateX(90deg);
+	transform:rotateX(90deg);
+}
+
+.roll-link span:after {
+	content: attr(data-title);
+	display: block;
+	position: absolute;
+	left: 0;
+	top:0;
+	padding:0 2px;
+	background-color: #F22FFF;
+	color: #fff;
+
+	-webkit-transform-origin:50% 0;
+	transform-origin:50% 0;
+
+	-webkit-transform: translate3d(0, 100%, 0) rotateX(-90deg);
+	transform: translate3d(0, 100%, 0) rotateX(-90deg);
+}
+
+
+.navbar-text{
+	padding-left: 3em;
+	font-family: 'Open Sans';
+	
+
+}
+.dropdown-menu{
+	left: 2em;
+	background-color: #F09AFF;
+	
+}
+
+.dropdown-menu:hover{
+	background-color: #71FF77;
+	border: 1px, solid, transparent;
+}
+
+.dropdown-menu a:hover{
+	background-color: #71FF77; 
+}
+
+
+
+.menu{
+	overflow-x: "hidden";
+	position: relative;
+	right: 231;
+
+}
+
+.menu-open{
+	right:231px;
+
+}
+
+.menu-open .menu-side{
+	right:0;
+
+}
+
+.menu-side,
+.menu{
+	-webkit-transition: right .2s ease;
+	-moz-transition: right .2s ease;
+	transition: right .2s ease;
+}
+
+.menu-side{
+	background-color: #333;
+	border-right:1px solid #000;
+	color: #fff;
+	position: fixed;
+	top:0;
+	right:-231px;
+	width: 210px;
+	height:100%;
+	padding:10px;
+}
+.toggle-button{
+	position: absolute;
+	top:500px;
+	left:2000px;
+	font-family: ('Open Sans');
+	font-size:1.41em;
+}
+
+
+
+
+.clouds{
+
+position: absolute;
+left: 0;
+top: -50px;
+z-index: ;
+width: 960px;
+height: 300;
+-webkit-animation: flight 150s infinite linear;
+  -moz-animation: flight 150s infinite linear;
+  animation: flight 150s infinite linear;
+
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 80px;
+  top: 100px;
+  width: 469px;
+  height: 254px;
+  background: transparent url(../images/cloud-1.png) no-repeat left top;
+  z-index: -6;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: -140px;
+  top: ;
+  width: 557px;
+  height: 299px;
+  background: transparent url(../images/cloud-2.png) no-repeat left top;
+  z-index: -6;
+}
+.cloud-3 {
+  position: absolute;
+  right: -490px;
+  top: -60px;
+  width: 685px;
+  height: 390px;
+  background: transparent url(../images/cloud-3.png) no-repeat left top;
+  z-index: -6;
+  }
+
+  @-webkit-keyframes flight {
+
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+ 
+  100% {
+    -webkit-transform: translateX(100%);
+  }
+}
+@-moz-keyframes flight {
+ 
+  0% {
+    -moz-transform: translateX(0);
+  }
+
+  100% {
+    -moz-transform: translateX(100%);
+  }
+}
+@-o-keyframes flight {
+
+  0% {
+    -o-transform: translateX(0);
+  }
+
+  
+  100% {
+    -o-transform: translateX(100%);
+  }
+}
+@keyframes flight {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+
