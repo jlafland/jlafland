@@ -499,6 +499,7 @@ div.dropup li a:hover{
 	font-size: 1.5em;
 }
 
+
 .dropdown-menu{
 	left: 2em;
 	background-color: #F09AFF;
@@ -559,6 +560,11 @@ div.dropup li a:hover{
 	left:2000px;
 	font-family: ('Open Sans');
 	font-size:1.41em;
+}
+
+.right-nav a{
+	font-size: 1.3em;
+
 }
 
 
