@@ -503,7 +503,7 @@ div.dropup li a:hover{
 .navbar-text{
 	padding-left: 3em;
 	font-family: 'Open Sans';
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 
 
@@ -523,13 +523,10 @@ div.dropup li a:hover{
 	background-color: #71FF77; 
 }
 
-
-
 .menu{
 	overflow-x: "hidden";
 	position: relative;
 	right: 231;
-
 }
 
 .menu-open{
@@ -573,8 +570,6 @@ div.dropup li a:hover{
 	font-size: 1.45em;
 	line-height: 25px;
 }
-
-
 
 
 .clouds{
