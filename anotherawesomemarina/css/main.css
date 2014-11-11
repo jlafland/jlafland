@@ -502,6 +502,7 @@ div.dropup li a:hover{
 .dropdown-menu{
 	left: 2em;
 	background-color: #F09AFF;
+	z-index: 30;
 	
 }
 
@@ -550,6 +551,7 @@ div.dropup li a:hover{
 	width: 210px;
 	height:100%;
 	padding:10px;
+	z-index: 30;
 }
 .toggle-button{
 	position: absolute;
@@ -564,46 +566,46 @@ div.dropup li a:hover{
 
 .clouds{
 
-position: absolute;
-left: 0;
-top: -50px;
-z-index: ;
-width: 960px;
-height: 300;
--webkit-animation: flight 150s infinite linear;
-  -moz-animation: flight 150s infinite linear;
-  animation: flight 150s infinite linear;
+	position: absolute;
+	left: 0;
+	top: -50px;
+	z-index: ;
+	width: 960px;
+	height: 300;
+	-webkit-animation: flight 150s infinite linear;
+	  -moz-animation: flight 150s infinite linear;
+	  animation: flight 150s infinite linear;
 
-}
+	}
 
 .cloud-1 {
-  position: absolute;
-  right: 80px;
-  top: 100px;
-  width: 469px;
-  height: 254px;
-  background: transparent url(../images/cloud-1.png) no-repeat left top;
-  z-index: -6;
+	  position: absolute;
+	  right: 80px;
+	  top: 100px;
+	  width: 469px;
+	  height: 254px;
+	  background: transparent url(../images/cloud-1.png) no-repeat left top;
+	  z-index: -6;
 }
 
 .cloud-2 {
-  position: absolute;
-  left: -140px;
-  top: ;
-  width: 557px;
-  height: 299px;
-  background: transparent url(../images/cloud-2.png) no-repeat left top;
-  z-index: -6;
+	  position: absolute;
+	  left: -140px;
+	  top: ;
+	  width: 557px;
+	  height: 299px;
+	  background: transparent url(../images/cloud-2.png) no-repeat left top;
+	  z-index: -6;
 }
 .cloud-3 {
-  position: absolute;
-  right: -490px;
-  top: -60px;
-  width: 685px;
-  height: 390px;
-  background: transparent url(../images/cloud-3.png) no-repeat left top;
-  z-index: -6;
-  }
+	  position: absolute;
+	  right: -490px;
+	  top: -60px;
+	  width: 685px;
+	  height: 390px;
+	  background: transparent url(../images/cloud-3.png) no-repeat left top;
+	  z-index: -6;
+ }
 
   @-webkit-keyframes flight {
 
