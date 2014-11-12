@@ -31,6 +31,33 @@ body, html{
     margin: 0;
 
 }
+#prlx_lyr_5{
+    position: absolute;
+     width: 60%;
+    left: 20%;
+    margin-top: 50%;
+    z-index: 11;
+
+
+}
+#prlx_lyr_6{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    margin-top: 36%;
+    z-index: 12;
+
+}
+
+#prlx_lyr_7{
+    position: absolute;
+     width: 60%;
+    left: 20%;
+    margin-top: 50%;
+    z-index: 13
+
+    
+}
 
 .lower-area{
     position: absolute;
