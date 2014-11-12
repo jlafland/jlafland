@@ -1,0 +1,99 @@
+
+.logo{
+	max-width: 40%;
+}
+
+.wrapper{
+	background-color: #F5FFFA;
+	opacity: 0.6;
+	min-height: 1000px;
+}
+
+
+body{
+
+  position: relative; 
+	background-image: url();
+	display:center;
+	background-size: 100%;
+	
+	
+}
+
+.abouttext{
+	background-color: #F5FFFA ; 
+	opacity: 0.6;
+
+
+}
+
+
+h1 img{
+	opacity: 1;
+}
+
+.abouttext h2{
+	color: ;
+}
+  
+
+
+
+.socialmedia{
+	width: 50%;
+	padding-top: 9%;
+	padding-bottom: 3%;
+	margin-left: 26%;
+	
+}
+
+.icon{
+	background-color: transparent;
+	border: none;
+
+	
+}
+
+.mediaicon{
+	max-width: 50%;
+	min-width: 30px;
+	opacity: ;
+
+}
+
+
+
+.dragonlogo{
+	display: ;
+	padding: none;
+	max-height: 9%;
+}
+
+.modal-title {
+	padding-right: 40%;
+}
+.modal-header {
+	padding: 5px;
+
+}
+
+.pages{
+	
+	padding-top: 47%;
+	width: 30%;
+	margin-left:70%;
+}
+
+
+.dragon{
+}
+
+
+/*div {
+  height: 3em;
+  transition: 1s;
+}
+
+div:hover {
+  height: 24em;
+}
