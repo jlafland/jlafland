@@ -22,107 +22,74 @@
     margin:-100px 0 0 -100px; /* is width and height divided by two */
     z-index: 99;
 }
-
-/* universal styles */
+/* Universal Styles */
 body, html{
-    width: 100vw; 
-    height: 200vh;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
-
-}
-#prlx_lyr_5{
-    position: absolute;
-    width:40%;
-    left: 30%;
-    margin-top: 97%;
-    z-index: 11;
-    overflow: hidden;
-
-
-}
-#prlx_lyr_6{
-    position: absolute;
-    width:70%;
-    left: 15%;
-    margin-top: 100%;
-    z-index: 12;
-    overflow: hidden;
+	padding: 0px;
+	margin:0px;
+	overflow-x: hidden;
 
 }
 
-#prlx_lyr_7{
-    position: absolute;
-     width: 50%;
-    left: 25%;
-    margin-top: 100%;
-    z-index: 13;
-    overflow: hidden;
-
-    
+a{
+	text-decoration:none;
 }
 
-.lower-area{
-    position: absolute;
-    top:100vh;
-    height:1000px;
-    width: 100%;
-    background-color: #422DFF;
-    z-index: 10;
-}
-
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-.pull-right {
-  float: right !important;
-}
-.pull-left {
-  float: left !important;
-}
-.hide {
-  display: none !important;
-}
-.show {
-  display: block !important;
-}
-
-img.palm:hover{
-    border: 1px solid transparent;
-}
 .palm{
-    position: relative;
-    left: 33.85%;
+	position: relative;
+	left: 33.85%;
     width: 16%;
     margin-top: 16%;
     z-index: 10;
 }
-
-.white-leaf{
-    position: relative;
-    margin-top: -90px;
-    z-index: 11;
-    left: 44.7%;
-    width: 10%;
-    z-index: 11
-}
-
 
 .modal-toggle{
     position: relative;
     top: 63px;
     left: 6%;
     width: 10%;
+}
+
+
+.white-leaf{
+    position: relative;
+    margin-top: -71px;
+    z-index: 11;
+    left: 44.7%;
+    width: 10%;
+    z-index: 11;
+}
+
+.lower-area{
+    position: absolute;
+    top:100vh;
+    height:100vh;
+    width: 100%;
+    background-color: #422DFF;
+    z-index: 10;
+}
+
+#prlx_lyr_5{
+	position: relative;
+
+}
+
+.large-hand{
+	position: ;
+	top: -50px;
+}
+#prlx_lyr_6{
+	position: absolute;
+
+}
+
+#prlx_lyr_7{
+	position: absolute;
 
 }
 
 
-a{
-    text-decoration: none;
-}
+
+
 
 /* Left Menu */
 .nav-left{
