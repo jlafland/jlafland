@@ -1,0 +1,201 @@
+/*  Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("../images/dragonwheel.gif"); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    z-index: 99;
+}
+
+/* universal styles */
+body, html{
+    width: 100vw; 
+    height: 200vh;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lower-area{
+    position: absolute;
+    top:100vh;
+    height:100vh;
+    width: 100%;
+    background-color: #422DFF;
+    z-index: 10;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+
+img.palm:hover{
+    border: 1px solid transparent;
+}
+.palm{
+    position: relative;
+    left: 33.85%;
+    width: 16%;
+    margin-top: 16%;
+    z-index: 10;
+}
+
+.white-leaf{
+    position: relative;
+    margin-top: -71px;
+    z-index: 11;
+    left: 44.7%;
+    width: 10%;
+    z-index: 11;
+}
+
+
+.modal-toggle{
+    position: relative;
+    top: 63px;
+    left: 6%;
+    width: 10%;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* Left Menu */
+.nav-left{
+    overflow-x: hidden;
+    position: relative;
+    left: 40%;
+}
+.nav-left-open{
+    left:40%;
+}
+.nav-left-open .nav-left-side{
+    left:0;
+}
+.nav-left-side,
+.nav-left{
+    -webkit-transition: left .2s ease;
+    -moz-transition: left .2s ease;
+    transition: left .2s ease;
+}
+.nav-left-side{
+    position: relative;
+    background-color: #333;
+    border-right:1px solid #000;
+    color: #fff;
+    position: fixed;
+    top:0;
+    left:-45%;
+    width: 40%;
+    height:100%;
+    padding:10px;
+    z-index: 2;
+}
+
+
+
+/* Right Menu */
+.nav-right{
+    overflow-x: hidden;
+    position: relative;
+    right: 40%;
+}
+.nav-right-open-{
+    right:40%px;
+}
+.nav-right-open .nav-right-side{
+    right:0;
+}
+.nav-right-side,
+.nav-right{
+    -webkit-transition: right .2s ease;
+    -moz-transition: right .2s ease;
+    transition: right .2s ease;
+}
+.nav-right-side{
+    background-color: #333;
+    border-right:1px solid #000;
+    color: #fff;
+    position: fixed;
+    top:0;
+    right:-45%;
+    width: 40%;
+    height:100%;
+    padding:10px;
+}
+
+/* Modal  */
+p.modal-text{
+    margin-top: 0;
+}
+.modal-container{
+    position: fixed;
+    background-color: #fff;
+    /*border: 1px solid #000;*/
+    width: 70%;
+    max-width: 16em;
+    left:50%;
+    padding: 20px;
+    border-radius: 1em;
+    z-index: 15;
+
+    -webkit-transform: translate(-50%, -400%);
+    -ms-transform: translate(-50%, -400%);
+    transform: translate(-50%, -400%);
+
+    -webkit-transition: -webkit-transform 200ms ease-out;
+    -ms-transition: -ms-transform 200ms ease-out;
+    transition: transform 200ms ease-out;
+}
+.modal:before{
+    content:"";
+    position: fixed;
+    display:none;
+    background-color: rgba(0,0,0,.8);
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+}
+.modal:target:before{
+    display: block;
+}
+.modal:target .modal-container{
+    top: 20%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
