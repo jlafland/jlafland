@@ -61,15 +61,18 @@ a{
   text-align: center;
 }
 
+
+
+
 img.palm:hover{
-    border: 1px solid transparent;
+    border: 2px solid transparent;
 }
 .palm{
     position: relative;
     left: 33.85%;
     width: 16%;
     margin-top: 16%;
-    z-index: 10;
+    z-index: 12;
 }
 
 .white-leaf{
@@ -109,7 +112,11 @@ img.palm:hover{
     height: 552px;
     background-color: white;
     overflow: scroll;
+    border-radius: 23em 2em 50em 100px;
 
+}
+.container-left p {
+    line-height: ;
 }
 
 .container-right{
@@ -119,6 +126,7 @@ img.palm:hover{
     height: 552px;
     background-color: white;
     overflow: scroll;
+    border-radius: 214px 20em 1em 50em;
 
 }
 
@@ -187,7 +195,6 @@ img.palm:hover{
 .nav-left-side{
     position: relative;
     background-color: #333;
-    border-right:1px solid #000;
     color: #fff;
     position: fixed;
     top:0;
@@ -221,7 +228,6 @@ img.palm:hover{
 }
 .nav-right-side{
     background-color: #333;
-    border-right:1px solid #000;
     color: #fff;
     position: fixed;
     top:0;
@@ -284,6 +290,7 @@ p.modal-text{
     display: inline-block;
     overflow: hidden;
     vertical-align: top;
+    line-height: 2em;
 }
 
 .roll-link span {
@@ -475,14 +482,6 @@ th {
 }
 
 
-input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
 
 
 
@@ -614,14 +613,7 @@ tbody.collapse.in {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
-.modal-header {
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
-  min-height: 16.42857143px;
-}
-.modal-header .close {
-  margin-top: -2px;
-}
+
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
@@ -630,21 +622,7 @@ tbody.collapse.in {
   position: relative;
   padding: 15px;
 }
-.modal-footer {
-  padding: 15px;
-  text-align: right;
-  border-top: 1px solid #e5e5e5;
-}
-.modal-footer .btn + .btn {
-  margin-left: 5px;
-  margin-bottom: 0;
-}
-.modal-footer .btn-group .btn + .btn {
-  margin-left: -1px;
-}
-.modal-footer .btn-block + .btn-block {
-  margin-left: 0;
-}
+
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
