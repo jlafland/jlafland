@@ -93,16 +93,29 @@ width: 45%;
 float: right;
 margin:2.5%;
 
-
-
-
-
-
   
 
 }
 
 
+
+.contact{
+  margin-top: 16%;
+padding: 4%;
+}
+
+.about{
+  padding-top:5%; 
+  
+}
+.about-text{
+  padding-top: 35%;
+padding-bottom: 35%;
+}
+
+.mod-bespoke{
+  margin-bottom: -55px;
+}
 
 h3 {
  font-family: "copperplate_becker_med";
@@ -134,7 +147,7 @@ img.primary {
   display:block;
 }
 img.primary-services {
-  margin-top: ;
+  margin-top: -35px;
   width: 50%;
   display:block;
 }
@@ -209,8 +222,17 @@ font-size: 1.250em;
   background-color: #343232;
 }
 
-.mainbuttons{
- 
+
+.silver-btn{
+  position: relative;
+top: 93px;
+
+}
+
+.selection-bar .silver-btn{
+
+
+font-size: 2.25em;
 }
 
 .mainbuttons .btn:hover {
