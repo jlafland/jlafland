@@ -309,8 +309,8 @@ p.modal-text{
 
 .roll-link:hover span {
     background-color: #e93a30;
-    -webkit-transform:rotateX(90deg);
-    transform:rotateX(90deg);
+    -webkit-transform:rotateY(90deg);
+    transform:rotateY(90deg);
 }
 
 .roll-link span:after {
@@ -326,8 +326,8 @@ p.modal-text{
     -webkit-transform-origin:50% 0;
     transform-origin:50% 0;
 
-    -webkit-transform: translate3d(0, 100%, 0) rotateX(-90deg);
-    transform: translate3d(0, 100%, 0) rotateX(-90deg);
+    -webkit-transform: translate3d(0, 100%, 0) rotateY(-90deg);
+    transform: translate3d(0, 100%, 0) rotateY(-90deg);
 }
 
 /*  modals   */
