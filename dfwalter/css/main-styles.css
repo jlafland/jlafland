@@ -135,6 +135,31 @@ padding-bottom: 35%;
   margin-bottom: -55px;
 }
 
+
+.modal-dialog {
+position: relative;
+width: auto;
+margin: auto;
+width: 50%;
+}
+.carousel-caption {
+
+margin-bottom: -83px;
+}
+
+
+.carousel-inner {
+
+overflow: visible;
+}
+
+
+.carousel-indicators .active {
+
+margin: 17px;
+
+}
+
 h3 {
  font-family: "copperplate_becker_med";
 color: white;
@@ -304,6 +329,14 @@ font-size: 2.25em;
   color: black;
 }
 
+
+
+.modal-dialog {
+position: relative;
+width: auto;
+margin: auto;
+width: 50%;
+}
 .carousel-caption {
 
 margin-bottom: -83px;
@@ -319,6 +352,19 @@ overflow: visible;
 .carousel-indicators .active {
 
 margin: 17px;
+
+}
+
+.modal-lg {
+ width: ""; 
+}
+}
+
+
+
+
+
+
 
 
 
@@ -368,5 +414,3 @@ margin: 17px;
 }
 
 }
-Status API Training Shop Blog About
-© 2014 GitHub, Inc. Terms Privacy Security Contact
