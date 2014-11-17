@@ -17,7 +17,7 @@
 			<div class="modal fade about-modal-lg" id="about" tabindex="-1" role="dialog" aria-labelledby="about-modal" aria-hidden="true">
 		  		<div class="modal-dialog about modal-lg">
 		    		<div class="modal-content large-modal text-center">
-		    			<div class="container-fluid about-text display-block text-center">
+		    			<div class="container-fluid about-text-main display-block text-center">
 							<p>DF Walter Inc was originally founded over 30 years ago in NYC to design, develop, and produce exceptional jewelry for clients including Buccellati, Tiffany, Schlumberger and Fred Leighton, as well as independent designers.  </p>
 
 							<p>Today we offer these same services to a private clientele, designing and producing bespoke and ready to wear jewelry by hand in the European tradition.   We also offer restoration, repurposing, modification and repair.  </p>
@@ -30,13 +30,42 @@
 			  	<div class="modal-dialog modal-lg">
 			    	<div class="modal-content large-modal">
 			      		<div class="container-fluid display-block text-center">
-							<img src ="images/d_walter.jpg" data-src="holder.js/100%x180" alt="..." class="img-circle">
-							<p>David Walter is a Vermont based designer, goldsmith and platinumsmith who has been producing exceptional pieces of jewelry for clients since 1982.</p>
+			      			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingOne">
+							      <h4 class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          David Walter
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							      <div class="panel-body david-bio">
+							     	<img src ="images/d_walter.jpg" data-src="holder.js/100%x180" alt="..." class="img-circle pull-right">
+									<p  class="bio-text">
+									<br>David Walter is a Vermont based designer, goldsmith and platinumsmith who has been producing exceptional pieces of jewelry for clients since 1982.</p>
 
-							<p>In 1985 he founded DF Walter & Co in New York City. His earliest clients included Buccelati, Tiffany & Co., Fred Leighton, and Schlumberger, among others. 
-							David's primary focus is the design and production of one of a kind jewelry pieces on a commission basis. He also specializes in the modification and repurposing of estate jewelry, as well as restoration and repair.</p>
-							<img src ="images/julia.png" data-src="holder.js/100%x180" alt="..." class="img-circle">
-							<p>Julia Ricklis began apprenticing with David Walter in 2011 to study the design and production of high jewelry. In the last 3 years, under his guidance, she has become an accomplished bench jeweler working in gold, platinum and gemstones. Julia continues to expand her knowledge of construction and fabrication techniques, gemology, design and prototyping. Promoted to Studio Director in 2014, she is involved with the daily operations of the business from gemstone and materials search through invoicing, production scheduling and marketing strategy.</p>
+									<p class="bio-text">In 1985 he founded DF Walter & Co in New York City. His earliest clients included Buccelati, Tiffany & Co., Fred Leighton, and Schlumberger, among others. 
+									David's primary focus is the design and production of one of a kind jewelry pieces on a commission basis. He also specializes in the modification and repurposing of estate jewelry, as well as restoration and repair.</p>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default julia-bio">
+							    <div class="panel-heading" role="tab" id="headingTwo">
+							      <h4 class="panel-title">
+							        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          Julia Rickless
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							      <div class="panel-body jilia-bio">
+							        	<img src ="images/julia.png" data-src="holder.js/100%x180" width:"150" alt="..." class="img-circle">
+										<p class="bio-text">Julia Ricklis began apprenticing with David Walter in 2011 to study the design and production of high jewelry. In the last 3 years, under his guidance, she has become an accomplished bench jeweler working in gold, platinum and gemstones. Julia continues to expand her knowledge of construction and fabrication techniques, gemology, design and prototyping. Promoted to Studio Director in 2014, she is involved with the daily operations of the business from gemstone and materials search through invoicing, production scheduling and marketing strategy.</p>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div>
 			    	</div>
 			  	</div>
@@ -97,7 +126,7 @@
 			<div class = "mainbuttons">
 				<div class="btn-group btn-group-justified selection-bar">
 			        <div class="btn-group">
-			          	<a href="pages/earring-page.html" class="hover-button">
+			          	<a href="earring-page.html" class="hover-button">
 			            	<button type="button" class="btn btn-default">Earring</button>
 			          	</a>
 			        </div>

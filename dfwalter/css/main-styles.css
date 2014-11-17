@@ -97,6 +97,19 @@ margin:2.5%;
 
 }
 
+.ring1{
+  margin-top: 54px;
+}
+.ring2{
+  margin-top: 54px;
+}
+.ring3{
+  margin-top: 54px;
+}
+.ring4{
+  margin-top: 54px;
+}
+
 
 
 .contact{
@@ -109,6 +122,11 @@ padding: 4%;
   
 }
 .about-text{
+padding-bottom: 9%;
+padding-top:1%;
+}
+
+.about-text-main{
   padding-top: 35%;
 padding-bottom: 35%;
 }
@@ -145,6 +163,7 @@ img.primary {
   width: 100%;
   max-width: 25%;
   display:block;
+  z-index: 2;
 }
 img.primary-services {
   margin-top: -35px;
@@ -207,6 +226,7 @@ font-size: 1.250em;
 }
 .services-text{
   padding-top: 60px;
+  z-index: -2;
 }
 
 .textrow {
@@ -241,11 +261,13 @@ font-size: 2.25em;
 
 }
 .image-buttons{
-
-
-
+}
+.mainbuttons{
 
 }
+
+
+
 
 
 
@@ -265,9 +287,38 @@ font-size: 2.25em;
   bottom: -25px;
 }
 
+.david-bio{
+  overflow-y: scroll;
+
+}
+
+.julia-bio{
+  overflow-y: scroll;
+}
+
+.julia-bio img{
+  width: 55%;
+}
+
+.bio-text{
+  color: black;
+}
+
+.carousel-caption {
+
+margin-bottom: -83px;
+}
 
 
+.carousel-inner {
 
+overflow: visible;
+}
+
+
+.carousel-indicators .active {
+
+margin: 17px;
 
 
 
