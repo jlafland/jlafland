@@ -560,7 +560,7 @@ margin-right: -46px;
 
 @media all and (max-width: 780px) {
   body{
-    margin-top: 0;
+    margin-top: -40px;
   }
   .modal-dialog{
     width: 90%;
