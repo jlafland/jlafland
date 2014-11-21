@@ -541,17 +541,21 @@ margin-bottom: -105px;
 }
 
 .carousel-control .glyphicon-chevron-left {
-left: 50%;
-margin-left: -43px;
+left: 46%;
+margin-left: -46px;
 
 }
 
 
 .carousel-control .glyphicon-chevron-right {
-right: 50%;
-margin-right: -43px;
+right: 46%;
+margin-right: -46px;
 }
 
+
+.diamond-txt{
+  top:100%;
+}
 
 
 @media all and (max-width: 780px) {
