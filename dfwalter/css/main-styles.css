@@ -562,6 +562,10 @@ margin-right: -46px;
   .modal-dialog{
     width: 90%;
   }
+
+  .navbar-text{
+    font-size: .7em;
+  }
 }
 
 
