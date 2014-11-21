@@ -618,7 +618,9 @@ margin-right: -46px;
 
 
 }
-
+.panel-1-txt {
+width: 100%;
+}
   .about-text {
 padding-bottom: 31%;
 }
