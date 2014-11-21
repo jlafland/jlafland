@@ -17,11 +17,17 @@ address {
 body {
   background-color: #343232;
   margin-top: 161px;
+  font-family: "copperplate_becker_med";
 }
 
 
 h1{
   margin-top: 0;
+}
+
+p{
+  font-size: 1.2em;
+  color: #A8A8A8;
 }
 
 .btn{
@@ -132,7 +138,8 @@ padding-bottom: 35%;
 }
 
 .mod-bespoke{
-  margin-bottom: -55px;
+  margin-bottom: 47px;
+
 }
 
 
@@ -221,7 +228,7 @@ img.services {
   margin-top: ;
   width: 100%;
   max-width: 760px;
-  margin-bottom: 9%;
+  margin-bottom: 14%;
 }
 
 img.silver {
@@ -252,9 +259,7 @@ img.silver {
   margin-bottom: 10%;
 }
 
-p {
-  color: white;
-}
+
 
 address p .contact{
   font-size: 12px;
@@ -408,6 +413,19 @@ background-color: #343232;
   top:100px;
 }
 
+.bespoke-buttons{
+  margin-top: -76px;
+  width: 50%;
+  display:block;
+}
+
+a.ooo{
+  color: #fff;
+padding-right: 4.5%;
+width: 3%;
+margin-top: -22px;
+
+}
 
 /*  Photo- Galley   */
 .photo-container {
