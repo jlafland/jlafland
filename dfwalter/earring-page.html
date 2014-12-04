@@ -161,58 +161,82 @@
 		  		</div>
 			</div>
 	<!-- About Modal -->
-				<div class="modal fade about-modal-lg" id="about" tabindex="-1" role="dialog" aria-labelledby="about-modal" aria-hidden="true">
-			  		<div class="modal-dialog modal-lg">
-			    		<div class="modal-content large-modal text-center">
-			    			<div class="container-fluid display-block text-center">
-								<p>David Walter is a Vermont based designer, goldsmith and platinumsmith who has been producing exceptional pieces of jewelry for clients since 1982.</p>
+			<div class="modal fade about-modal-lg" id="about" tabindex="-1" role="dialog" aria-labelledby="about-modal" aria-hidden="true">
+		  		<div class="modal-dialog about modal-lg">
+		    		<div class="modal-content large-modal text-center">
+		    			<div class="container-fluid about-text-main display-block text-center">
+							<p class="address-header">DF Walter Inc was originally founded over 30 years ago in NYC to design, develop, and produce exceptional jewelry for clients including Buccellati, Tiffany, Schlumberger and Fred Leighton, as well as independent designers.  </p>
 
-								<p>In 1985 he founded DF Walter & Co in New York City producing pieces for Buccellati, Fred Leighton and Schlumberger, among others.</p>
+							<p class="address-header">Today we offer these same services to a private clientele, designing and producing bespoke and ready to wear jewelry by hand in the European tradition.   We also offer restoration, repurposing, modification and repair.  </p>
+						</div>
+					</div>
+		  		</div>
+			</div>
+<!-- Bio Modal -->
+			<div class="modal fade bio-modal-lg" tabindex="-1" role="dialog" aria-labelledby="bio-modal" aria-hidden="true">
+			  	<div class="modal-dialog modal-lg">
+			    	<div class="modal-content large-modal">
+			      		<div class="container-fluid display-block text-center">
+			      			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							  <div class="panel panel-bio panel-default">
+							    <div class="panel-heading" role="tab" id="headingOne">
+							      <h4 class="panel-title">
+							        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          David Walter
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							      <div class="panel-body david-bio">
+							     	<img src ="images/david.png" data-src="holder.js/100%x180" alt="..." class="img-circle pull-right">
+									<p  class="bio-text">
+									<br>David Walter is a Vermont based designer, goldsmith and platinumsmith who has been producing exceptional pieces of jewelry for clients since 1982.</p>
 
-								<p>David's primary focus is the design and production of one of a kind jewelry pieces on a commission basis. He also specializes in the modification and repurposing of estate jewelry, as well as restoration and repair.</p>
-
-								<p><em>US registered trademark: DFWALTER</em></p>
+									<p class="bio-text">In 1985 he founded DF Walter & Co in New York City. His earliest clients included Buccelati, Tiffany & Co., Fred Leighton, and Schlumberger, among others. 
+									David's primary focus is the design and production of one of a kind jewelry pieces on a commission basis. He also specializes in the modification and repurposing of estate jewelry, as well as restoration and repair.</p>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-bio panel-default julia-bio">
+							    <div class="panel-heading" role="tab" id="headingTwo">
+							      <h4 class="panel-title">
+							        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          Julia Ricklis
+							        </a>
+							      </h4>
+							    </div>
+							    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							      <div class="panel-body jilia-bio">
+							        	<img src ="images/julia.png" data-src="holder.js/100%x180" width:"150" alt="..." class="img-circle">
+										<p class="bio-text">Julia Ricklis began apprenticing with David Walter in 2011 to study the design and production of high jewelry. In the last 3 years, under his guidance, she has become an accomplished bench jeweler working in gold, platinum and gemstones. Julia continues to expand her knowledge of construction and fabrication techniques, gemology, design and prototyping. Promoted to Studio Director in 2014, she is involved with the daily operations of the business from gemstone and materials search through invoicing, production scheduling and marketing strategy.</p>
+							      </div>
+							    </div>
+							  </div>
 							</div>
 						</div>
-			  		</div>
-				</div>
-	<!-- Bio Modal -->
-				<div class="modal fade bio-modal-lg" tabindex="-1" role="dialog" aria-labelledby="bio-modal" aria-hidden="true">
-				  	<div class="modal-dialog modal-lg">
-				    	<div class="modal-content large-modal">
-				      		<div class="container-fluid display-block text-center">
-								<img src ="images/d_walter.jpg" data-src="holder.js/100%x180" alt="..." class="img-circle">
-								<p>David Walter is a Vermont based designer, goldsmith and platinumsmith who has been producing exceptional pieces of jewelry for clients since 1982.</p>
-
-								<p>In 1985 he founded DF Walter & Co in New York City producing pieces for Buccellati, Fred Leighton and Schlumberger, among others.</p>
-
-								<p>David's primary focus is the design and production of one of a kind jewelry pieces on a commission basis. He also specializes in the modification and repurposing of estate jewelry, as well as restoration and repair.</p>
-
-								<p><em>US registered trademark: DFWALTER</em></p>
-							</div>
-				    	</div>
-				  	</div>
-				</div>
+			    	</div>
+			  	</div>
+			</div>
 <!-- Contact Modal -->
 			<div class="modal fade contact-modal-lg" tabindex="-1" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
 			  	<div class="modal-dialog modal-lg">
-			    	<div class="modal-content large-modal">
+			    	<div class="modal-content contact large-modal">
 			      		<div class ="wrapper">
 							<div class="container">
 								<address><br><br><br>
-									<h3><strong>Studio and Gallery</strong></h3>
+									<h3><strong class="address-header">Studio and Gallery</strong></h3>
 									81 Main Street<br>
 									Brattleboro, Vermont<br>
 									<abbr title="Phone"></abbr> <span class="glyphicon glyphicon-earphone"></span>(802) 722-9620
 								</address>
 								<address>
-								  <strong>David Walter</strong><br>
+								  <strong class="address-header">David Walter</strong><br>
 									<a href="mailto:#"><span class="glyphicon glyphicon-envelope"></span>
 									info@dfwalter.com</a> <br> 
 									<strong>Our Gallery is Open:</strong><br>
 									Wednesday through Sunday <br>
 									10am to 6pm<br><br><br>
-									<em> Comments, Suggestions and Inquiries  are most welcome.</em>
+									<em class="address-header"> Comments, Suggestions and Inquiries  are most welcome.</em>
 								</address>	
 							</div>
 						</div>
