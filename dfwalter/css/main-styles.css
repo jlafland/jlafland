@@ -18,6 +18,7 @@ body {
   background-color: #343232;
   margin-top: 161px;
   font-family: "copperplate_becker_med";
+  
 }
 
 
@@ -119,12 +120,12 @@ margin:2.5%;
 
 
 .contact{
-  margin-top: 16%;
+  margin-top: 3%;
 padding: 4%;
 }
 
 .about{
-  padding-top:5%; 
+  padding-top:1%; 
   
 }
 .about-text{
@@ -162,7 +163,7 @@ overflow: visible;
 }
 
 .bio-modal-lg{
-  top: 13%;
+  top: 7%;
 
 }
 .carousel-indicators .active {
@@ -311,11 +312,7 @@ font-size: 2.25em;
   display:;
 
 }
-.image-buttons{
-}
-.mainbuttons{
 
-}
 
 
 
@@ -363,10 +360,11 @@ border-top-color: #343232;
 
 
 .modal-dialog {
+  top: ;
 position: relative;
 width: auto;
 margin: auto;
-width: 50%;
+max-width:600px;
 }
 .carousel-caption {
 
@@ -387,7 +385,7 @@ margin: 17px;
 }
 
 .modal-lg {
- width: ""; 
+ top: 92px; 
 }
 
 
@@ -557,18 +555,33 @@ margin-right: -46px;
   top:100%;
 }
 
+.navbar-text{
+  float: '';
+}
+
+
+.navbar-inverse .navbar-text {
+color: #949292;
+}
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width: 780px) {
   body{
-    margin-top: -140px;
+    margin-top: 148px;
   }
   .modal-dialog{
     width: 90%;
   }
 
-  .navbar-text{
-    font-size: .7em;
-  }
+
   .address-header{
     margin-top: -30px;
 
@@ -594,7 +607,9 @@ margin-right: -46px;
 @media screen and (max-width: 480px) {
 
 
-
+span.lower-media{
+  display: none;
+}
     .dfheader h1 {
     padding-bottom: 0px;
     padding-top: 0%;
@@ -613,11 +628,14 @@ margin-right: -46px;
       body {
         background-color: #343232;
         padding-bottom: 10.000em;
-        margin-top: 94px;
+        margin-top: 110px;
         max-height: 1000px;
 
 
 }
+
+
+
 .panel-1-txt {
 width: 100%;
 }
